@@ -1,10 +1,6 @@
-#📆2022年 
-狀態:: #☑DONE
-完成日期:: 2022-02-06
-標籤:: #💻編程/🚋共用 #🗂Overview
-子筆記:: 
-教程:: 
-備註:: 
+###### tags: `#📆2022年`
+###### tags: `💻編程/🚋共用`
+###### tags: `🗂Overview`
 
 # YAML
 YAML Ain't Markup Language，ymal既是也不是一個標記語言；yaml是以數據為中心，比json、xml更適合做配置文件。
