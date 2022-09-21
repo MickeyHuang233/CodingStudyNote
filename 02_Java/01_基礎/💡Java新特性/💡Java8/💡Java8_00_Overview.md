@@ -7,12 +7,12 @@
 ### HashMap處理
 HashMap在Java8前是以**數組 + 鏈表**儲存，而在Java8是以**數組 + 鏈表/紅黑數**儲存
 - Java8前，步驟：
-	![[images/Java 8_01_Java8前HashMap.png]]
+	![](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%F0%9F%92%A1Java%E6%96%B0%E7%89%B9%E6%80%A7/%F0%9F%92%A1Java8/images/Java%208_01_Java8%E5%89%8DHashMap.png?raw=true)
 	1. key用hash算出要存放的數組index
 	2. 如果數組中鏈表為空，直接加到鏈表
 	3. 如果數組中鏈表不為空，依次比對鏈表的key，如果一樣則更新值；不一樣則在鏈表最後加上
 - Java8，步驟：
-	![[images/Java 8_02_Java8 HashMap.png]]
+	![](images/Java 8_02_Java8 HashMap.png)
 	1. 前面的步驟和Java8前都一樣
 	2. 如果鏈表的數量很多的話，儲存方式會改為紅黑樹
 - 改動優點：
