@@ -1,9 +1,10 @@
 # JavaSE_04_IO
 `java.io`
-[Java8 官方API文檔 IO](https://docs.oracle.com/javase/8/docs/api/java/io/package-frame.html)
-[Java.io包方法說明(中文)](http://tw.gitbook.net/java/io/index.html)
+- [Java8 官方API文檔 IO](https://docs.oracle.com/javase/8/docs/api/java/io/package-frame.html)
+- [Java.io包方法說明(中文)](http://tw.gitbook.net/java/io/index.html)
+- 流：數據(字符、字節)，1個字符=2個字節=16個二進制位
+
 ![JavaSE_04_IO_01](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%F0%9F%8D%80JavaSE/images/JavaSE_04_IO_01.png?raw=true)
-流：數據(字符、字節)，1個字符=2個字節=16個二進制位
 
 ### 頂級父類
 |        | 輸入流                    | 輸出流                     |
