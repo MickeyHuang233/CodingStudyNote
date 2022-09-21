@@ -1,5 +1,4 @@
-#💻編程/🌠Java/01_Java基礎
-# Exceptions
+# JavaSE_06_異常處理
 Exceptions java.lang.Exception
 目的：若有錯誤産生Exception物件，程式還可以繼續運行。
 * Throwable

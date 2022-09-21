@@ -1,5 +1,4 @@
-#💻編程/🌠Java/01_Java基礎
-# 反射 Reflection
+# JavaSE_08_反射
 `java.lang.reflect`
 [Java反射技术_反射教程](http://www.51gjie.com/java/82)
 [Java反射獲取所有私有字段](https://code.i-harness.com/zh-TW/q/e9b1a8)

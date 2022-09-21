@@ -1,5 +1,4 @@
-#💻編程/🌠Java/01_Java基礎
-# Object Oriented
+# JavaSE_02_面向對象
 面向對象內容：封裝 Encapsulation、多載 Override、繼承 Extends、多型 Polymorphism
 
 ## 🍀封裝 Encapsulation

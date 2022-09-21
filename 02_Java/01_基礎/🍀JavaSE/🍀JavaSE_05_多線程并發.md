@@ -1,5 +1,4 @@
-#💻編程/🌠Java/01_Java基礎
-# Multi Thread
+# JavaSE_05_多線程并發
 [Java 编程要点之并发（Concurrency）详解](https://waylau.com/essential-java-concurrency/)
 ![[JavaSE_05_多線程并發_總覽.png]]
 * 概念
