@@ -1,10 +1,4 @@
-#📆2021年 
-狀態:: #☑DONE
-完成日期:: 2021-02-01
-標籤:: #💻編程/🌠Java/01_Java基礎 #🗂Overview 
-子筆記::
-教程:: 
-備註:: 筆記搬運(Google Drive-->Obsidian)
+###### tags: `📆2021年` `💻編程/🌠Java/01_Java基礎` `🗂Overview `
 
 # Java Socket
 ## ☎️基礎知識點
@@ -19,7 +13,7 @@
 	- TCP(Transfer Confrol Protocol)：電話，類似三次握手，面向連接，安全可靠，效率低下
 	- UDP(User Datagram Protocol)：短信，非面向連接，效率高
 	- 傳輸：先封裝，後拆封
-	![Java Socket_01_TCP／IP模型]()
+	![Java Socket_01_TCP／IP模型](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%E2%98%8E%EF%B8%8FJava%20Socket/images/Java%20Socket_01_TCP%EF%BC%8FIP%E6%A8%A1%E5%9E%8B.png?raw=true)
 
 ## ☎️相關Java類
 - InetAddress(不包含端口)  InetSocketAddress(包含端口)
@@ -186,7 +180,7 @@ server.close();
 
 ## ☎️TCP
 面向連接，安全、可靠、效率低，類似於打電話
-![Java Socket_02_TCP](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%E2%98%8E%EF%B8%8FJava%20Socket/images/Java%20Socket_TCP.png?raw=true)
+![Java Socket_02_TCP](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%E2%98%8E%EF%B8%8FJava%20Socket/images/Java%20Socket_02_TCP.png?raw=true)
 
 1.  面向連接：請求Request-響應Response
 2.  Socket編程

@@ -1,10 +1,4 @@
-#📆2022年 
-狀態:: #☑DONE 
-完成日期:: 2022-02-05
-標籤:: #💻編程/🌠Java/01_Java基礎 #🗂Overview 
-子筆記:: 
-教程:: [尚硅谷](https://www.bilibili.com/video/BV17W411g7eK)
-備註:: 
+###### tags: `📆2022年` `💻編程/🌠Java/01_Java基礎` `🗂Overview `
 
 # Java9新特性
 2017年9月公布Java9，並且從Java9開始，後續的Java版本更新周期為==6個月==，並逐漸Oracle JDK商業特性開源；以三年為一個周期發布長期支持版本。
