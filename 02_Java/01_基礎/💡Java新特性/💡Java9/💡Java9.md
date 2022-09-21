@@ -24,6 +24,7 @@
 - Java9之前無法得知jar包是否存在，或是重覆存在
 
 ![image](http://www.tellmehow.co/wp-content/uploads/2017/09/project-jigsaw-in-jdk-9-modularity-comes-to-java-19-638.jpg)
+![[Java9_01_模塊化系統.png]]
 
 ### 被依賴專案準備
 - 被依賴專案新增類
@@ -64,7 +65,7 @@
 	專案右鍵->Configure->Create module-info.java
 - 更新引入的module
 	專案右鍵->Build Path->Configure Build Path...
-	![[Java9_00_Overview_01_更新引入的module.png]]
+	![[Java9_02_更新引入的module.png]]
 - 設置引入的包
 	```java
 	module java9_test {

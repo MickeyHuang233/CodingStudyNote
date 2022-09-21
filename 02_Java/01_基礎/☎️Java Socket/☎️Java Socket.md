@@ -186,7 +186,7 @@ server.close();
 
 ## ☎️TCP
 面向連接，安全、可靠、效率低，類似於打電話
-![[Java Socket_TCP.png]]
+![image](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%E2%98%8E%EF%B8%8FJava%20Socket/images/Java%20Socket_TCP.png?raw=true)
 1.  面向連接：請求Request-響應Response
 2.  Socket編程
 	- 服務器(指定端口號)：ServerSocket([Java8 官方API文檔 Socket](https://docs.oracle.com/javase/8/docs/api/java/net/ServerSocket.html))
