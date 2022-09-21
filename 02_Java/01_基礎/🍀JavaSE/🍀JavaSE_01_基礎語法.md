@@ -30,7 +30,7 @@
 - 任何數字值或字元值都不會被視為boolean值，也無法轉成boolean型別
 - char以'`'\\u0000'`表示
 - 自動轉型
-![[JavaSE_01_基礎語法_轉型.png]]
+![JavaSE_01_基礎語法_轉型](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%F0%9F%8D%80JavaSE/images/JavaSE_01_%E5%9F%BA%E7%A4%8E%E8%AA%9E%E6%B3%95_%E8%BD%89%E5%9E%8B.png?raw=true)
 - 強制轉型 Casting：`(float)`
 	- 注意：把數值範圍比較大的資料強制轉換為數值範圍比較小的型別, 因此有可能在轉型後造成資料值不正確。
 

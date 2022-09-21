@@ -1,6 +1,7 @@
 # JavaSE_05_多線程并發
 [Java 编程要点之并发（Concurrency）详解](https://waylau.com/essential-java-concurrency/)
-![[JavaSE_05_多線程并發_總覽.png]]
+![JavaSE_05_多線程并發_總覽](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%F0%9F%8D%80JavaSE/images/JavaSE_05_%E5%A4%9A%E7%B7%9A%E7%A8%8B%E5%B9%B6%E7%99%BC_%E7%B8%BD%E8%A6%BD.png?raw=true)
+
 * 概念
 	1. 进程(Processes)：进程有一个独立的执行环境。进程通常有一个完整的、私人的基本运行时资源；特别是，每个进程都有其自己的内存空间。
 	2. 线程(Threads)：线程有时被称为轻量级进程。进程和线程都提供一个执行环境，但创建一个新的线程比创建一个新的进程需要更少的资源。

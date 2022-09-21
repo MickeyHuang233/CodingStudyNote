@@ -2,7 +2,7 @@
 ```java
 import java.util
 ```
-![[JavaSE_03_集合_01.png]]
+![JavaSE_03_集合_01](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%F0%9F%8D%80JavaSE/images/JavaSE_03_%E9%9B%86%E5%90%88_01.png?raw=true)
 
 ## 🍀List
 [\[Java筆記\] 詳解 Collection-List](https://andy6804tw.github.io/2017/11/08/java-collection-intro-2/)
@@ -29,18 +29,18 @@ public class fruit{
 ### LinkedList
 鍵表，線程不安全，查詢慢，修改快
 Node(Node previous, Object obj, Node next)
-![[JavaSE_03_集合_02.png]]
+![JavaSE_03_集合_02](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%F0%9F%8D%80JavaSE/images/JavaSE_03_%E9%9B%86%E5%90%88_02.png?raw=true)
 
 ArrayList與LinkedList比較
-|Compare|Array|LinkList|
-|---|---|---|
-|Add & Delete|需要做大量的資料搬移|及需改變Pointer|
-|Memory Space|較浪費|需要才用|
-|Data Stroage|可以對資料做直接存取|適合資料的循序存取|
+| Compare      | Array                | LinkList           |
+| ------------ | -------------------- | ------------------ |
+| Add & Delete | 需要做大量的資料搬移 | 及需改變Pointer    |
+| Memory Space | 較浪費               | 需要才用           |
+| Data Stroage | 可以對資料做直接存取 | 適合資料的循序存取 |
 
 ## 🍀Map
 用一個對象找另一個對象，Key是使用Set的方式儲存，而Value是用List的方式儲存。
-![[JavaSE_03_集合_03.png]]
+![JavaSE_03_集合_03](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%F0%9F%8D%80JavaSE/images/JavaSE_03_%E9%9B%86%E5%90%88_03.png?raw=true)
 
 ### HashMap
 無順序，HashMap 在 put 时是根据 key 的 hashcode 进行 hash 然后放入对应的地方；效率高，線程不安全
