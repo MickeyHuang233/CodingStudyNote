@@ -23,8 +23,7 @@
 - Java9之前難以對jar包進行封裝，jar包間無明確的依賴關系
 - Java9之前無法得知jar包是否存在，或是重覆存在
 
-![image](http://www.tellmehow.co/wp-content/uploads/2017/09/project-jigsaw-in-jdk-9-modularity-comes-to-java-19-638.jpg)
-![[Java9_01_模塊化系統.png]]
+![Java9_01_模塊化系統](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%F0%9F%92%A1Java%E6%96%B0%E7%89%B9%E6%80%A7/%F0%9F%92%A1Java9/Java9_01_%E6%A8%A1%E5%A1%8A%E5%8C%96%E7%B3%BB%E7%B5%B1.png?raw=true)
 
 ### 被依賴專案準備
 - 被依賴專案新增類
@@ -65,7 +64,7 @@
 	專案右鍵->Configure->Create module-info.java
 - 更新引入的module
 	專案右鍵->Build Path->Configure Build Path...
-	![[Java9_02_更新引入的module.png]]
+	![Java9_02_更新引入的module.png](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%F0%9F%92%A1Java%E6%96%B0%E7%89%B9%E6%80%A7/%F0%9F%92%A1Java9/Java9_02_%E6%9B%B4%E6%96%B0%E5%BC%95%E5%85%A5%E7%9A%84module.png?raw=true)
 - 設置引入的包
 	```java
 	module java9_test {

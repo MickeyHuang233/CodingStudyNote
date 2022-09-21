@@ -19,7 +19,7 @@
 	- TCP(Transfer Confrol Protocol)：電話，類似三次握手，面向連接，安全可靠，效率低下
 	- UDP(User Datagram Protocol)：短信，非面向連接，效率高
 	- 傳輸：先封裝，後拆封
-![TCP/IP模型](https://mingdeju.com/usr/uploads/2019/02/1233681944.jpg)
+	![Java Socket_01_TCP／IP模型]()
 
 ## ☎️相關Java類
 - InetAddress(不包含端口)  InetSocketAddress(包含端口)
@@ -186,7 +186,8 @@ server.close();
 
 ## ☎️TCP
 面向連接，安全、可靠、效率低，類似於打電話
-![image](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%E2%98%8E%EF%B8%8FJava%20Socket/images/Java%20Socket_TCP.png?raw=true)
+![Java Socket_02_TCP](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%E2%98%8E%EF%B8%8FJava%20Socket/images/Java%20Socket_TCP.png?raw=true)
+
 1.  面向連接：請求Request-響應Response
 2.  Socket編程
 	- 服務器(指定端口號)：ServerSocket([Java8 官方API文檔 Socket](https://docs.oracle.com/javase/8/docs/api/java/net/ServerSocket.html))
