@@ -30,3 +30,10 @@ Java 8前後JVM的調整
 - 改動優點：
 	1. 減少方法區的垃圾回收機制(方法區容量快滿才會調用)，效率上升
 	2. 減少OutOfMemeryException出現概率
+
+---
+Catalog
+---
+- [💡Java8_01_Lambda](https://hackmd.io/@W3snnHv8TgC_U2ElYL9ATQ/Java8_01_Lambda)
+- [💡Java8_02_StreamAPI](https://hackmd.io/@W3snnHv8TgC_U2ElYL9ATQ/Java8_02_StreamAPI)
+- []
