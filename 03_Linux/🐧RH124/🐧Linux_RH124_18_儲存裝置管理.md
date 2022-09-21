@@ -29,7 +29,7 @@
 	- windows7 64位以後支持gtp
 
 windows下的磁盤分區
-![Linux_RH124_12_磁盤分區和挂載_01](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_12_%E7%A3%81%E7%9B%A4%E5%88%86%E5%8D%80%E5%92%8C%E6%8C%82%E8%BC%89_01.png?raw=true)
+![Linux_RH124_18_磁盤分區和挂載_01](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_18_%E7%A3%81%E7%9B%A4%E5%88%86%E5%8D%80%E5%92%8C%E6%8C%82%E8%BC%89_01.png?raw=true)
 
 ## 🐧查看儲存裝置
 ### 查看SCSI設備 lsscsi
@@ -109,7 +109,7 @@ tmpfs                  379M  4.0K  379M   1% /run/user/1000
 ```
 
 ## 🐧掛載儲存裝置 mount
-![Linux_RH124_12_磁盤分區和挂載_02](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_12_%E7%A3%81%E7%9B%A4%E5%88%86%E5%8D%80%E5%92%8C%E6%8C%82%E8%BC%89_02.png?raw=true)
+![Linux_RH124_18_磁盤分區和挂載_02](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_18_%E7%A3%81%E7%9B%A4%E5%88%86%E5%8D%80%E5%92%8C%E6%8C%82%E8%BC%89_02.png?raw=true)
 此部分需要搭配[[🐧Linux_RH134_06_硬碟分區管理分區管理]]使用。
 
 ### 以分區名掛載
