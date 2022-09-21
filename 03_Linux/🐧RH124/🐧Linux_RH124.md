@@ -4,9 +4,9 @@ JavaSE
 
 Catalog
 ---
-- [🐧Linux_RH124_01_基礎設置]()
-- [🐧Linux_RH124_02_基礎指令]()
-- [🐧Linux_RH124_03_幫助指令]()
+- [🐧Linux_RH124_01_基礎設置](https://hackmd.io/@W3snnHv8TgC_U2ElYL9ATQ/Linux_RH124_01_基礎設置)
+- [🐧Linux_RH124_02_基礎指令](https://hackmd.io/@W3snnHv8TgC_U2ElYL9ATQ/Linux_RH124_02_基礎指令)
+- [🐧Linux_RH124_03_幫助指令](https://hackmd.io/@W3snnHv8TgC_U2ElYL9ATQ/Linux_RH124_03_幫助指令)
 - [🐧Linux_RH124_04_文書編輯器]()
 - [🐧Linux_RH124_05_文件目錄操作]()
 - [🐧Linux_RH124_06_IO流轉向]()
