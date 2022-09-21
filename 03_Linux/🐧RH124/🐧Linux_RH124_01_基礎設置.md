@@ -13,7 +13,7 @@
 參考：[Virtual Box 網路卡設定介紹篇 – 初階NAT](https://ithelp.ithome.com.tw/articles/10107536)
 1. VirtualBox設置
 \[虛擬機\]-->\[設定\]-->\[網路\]
-![Linux_RH124_RH124_01_基礎設置_01_網路設置](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_RH124_01_%E5%9F%BA%E7%A4%8E%E8%A8%AD%E7%BD%AE_01_%E7%B6%B2%E8%B7%AF%E8%A8%AD%E7%BD%AE.png?raw=true)
+![Linux_RH124_RH124_01_基礎設置_01_網路設置](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_01_%E5%9F%BA%E7%A4%8E%E8%A8%AD%E7%BD%AE_01_%E7%B6%B2%E8%B7%AF%E8%A8%AD%E7%BD%AE.png?raw=true)
 
 2. 設置CentOS
 	- 若NAT連線成功則可連外網
