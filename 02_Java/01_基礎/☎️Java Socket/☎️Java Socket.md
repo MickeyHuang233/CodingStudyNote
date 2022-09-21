@@ -84,7 +84,7 @@ URL(Uniform Resource Locator)：統一資源定位器，它是一種具體的URI
 	```
 
 #### 獲取網頁資源
-IO流的使用可參考[[🍀JavaSE_04_IO]]。
+IO流的使用可參考[🍀JavaSE_04_IO](https://hackmd.io/@W3snnHv8TgC_U2ElYL9ATQ/JavaSE_04_IO)。
 - 使用字節流獲取：不建議使用此方法，會亂碼。
 	```java
 	URL url = new URL("http://www.baidu.com");//主頁默認資源index.html
