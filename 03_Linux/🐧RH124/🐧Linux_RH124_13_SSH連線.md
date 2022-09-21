@@ -1,4 +1,4 @@
-# Linux SSH連線
+# Linux_RH124_13_SSH連線
 ## 🐧簡介
 SSH加密和[[🔐密碼學]]有關，SSH的加密方式主要分為兩個版本：V1和V2
 - SSH Server
@@ -11,14 +11,14 @@ SSH加密和[[🔐密碼學]]有關，SSH的加密方式主要分為兩個版本
 	- Service key：寫在RAM中，key有1024bit，預設1小時會更新一次
 
 ### SSH 加密傳輸流程
-![[Linux_RH124_14_SSH連線_01_SSH加密流程.png]]
+![Linux_RH124_14_SSH連線_01_SSH加密流程](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_14_SSH%E9%80%A3%E7%B7%9A_01_SSH%E5%8A%A0%E5%AF%86%E6%B5%81%E7%A8%8B.png?raw=true)
 - SSH V1做法：
-	![[Linux_RH124_14_SSH連線_02_SSH V1加密流程.png]]
+	![Linux_RH124_14_SSH連線_02_SSH V1加密流程](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_14_SSH%E9%80%A3%E7%B7%9A_02_SSH%20V1%E5%8A%A0%E5%AF%86%E6%B5%81%E7%A8%8B.png?raw=true)
 	1. SSH Server回傳public key和private key給Client
 	2. Server會將session-key用public key進行非對稱加密，並傳給Client
 	3. 後面的通信都是用session-key進行對稱加密
 - SSH V2做法：
-	![[Linux_RH124_14_SSH連線_03_SSH V2加密流程.png]]
+	![Linux_RH124_14_SSH連線_03_SSH V2加密流程](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_14_SSH%E9%80%A3%E7%B7%9A_03_SSH%20V2%E5%8A%A0%E5%AF%86%E6%B5%81%E7%A8%8B.png?raw=true)
 	1. 使用`df`指令在Client和Server兩端生成session-key
 	2. 但是SSH Server還是會丟public key和private key給SSH Client
 
@@ -81,7 +81,7 @@ localhost ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAA
 
 ## 🐧使用金鑰登入
 - 對於自動化處理([[🐧Linux_RH294_01_Ansible介紹]])很重要，因為不可能讓腳本輸入密碼
-	![[Linux_RH124_14_SSH連線_04_自動化使用情境.png]]
+	![Linux_RH124_14_SSH連線_04_自動化使用情境](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_14_SSH%E9%80%A3%E7%B7%9A_04_%E8%87%AA%E5%8B%95%E5%8C%96%E4%BD%BF%E7%94%A8%E6%83%85%E5%A2%83.png?raw=true)
 - SSH驗證方式：
 	1. 帳號 + 密碼
 	2. 金鑰驗證：`ssh-keygen -t <指定演算方式>`
@@ -122,7 +122,7 @@ total 8
 -rw-r-----. 1 root root  580 Mar 29 10:26 id_rsa.pub
 ```
 
-![[Linux_RH124_14_SSH連線_05_sshkeygen說明.png]]
+![Linux_RH124_14_SSH連線_05_sshkeygen說明](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_14_SSH%E9%80%A3%E7%B7%9A_05_sshkeygen%E8%AA%AA%E6%98%8E.png?raw=true)
 
 ### 公鑰登入目標主機 ssh-copy-id
 將公鑰送至需登入的主機後使用`ssh-copy-id [-i <公鑰路徑>] <用戶名>@<IP|hostname>`

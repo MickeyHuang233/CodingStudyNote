@@ -1,4 +1,4 @@
-# Linux 基礎指令
+# Linux_RH124_02_基礎指令
 ## 🐧Commend Line Function Key
 - 指標移至行首：Ctrl + A
 - 指標移至行尾：Ctrl + E

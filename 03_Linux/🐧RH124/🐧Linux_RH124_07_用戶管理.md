@@ -1,4 +1,4 @@
-# Linux用戶管理
+# Linux_RH124_07_用戶管理
 - /home目錄下有各個創建的用戶對應的家目錄(如：/home/mickey)，當用戶登錄時，會自動進入自己的家目錄中。
 - Linux用戶需要至少屬於一個組。
 
@@ -258,7 +258,7 @@ ace      pts/1        2020-01-05 13:54 (gateway)
 	```bash
 	[root@localhost ~]# chage -m 0 -M 90 -W 20 -I 60 mickey
 	```
-	![[Linux_RH124_08_用戶管理_01_密碼管理.png]]
+	![Linux_RH124_08_用戶管理_01_密碼管理](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_08_%E7%94%A8%E6%88%B6%E7%AE%A1%E7%90%86_01_%E5%AF%86%E7%A2%BC%E7%AE%A1%E7%90%86.png?raw=true)
 - `chage -E <YYYY-mm-dd> <用戶名>`，設置指定用戶的密碼有效日期；0表示立即過期，-1表示永不過期
 	`date -d +<天數>days +%Y-%m-%d`，計算幾天後的日期
 	```bash
@@ -367,7 +367,7 @@ ace      pts/1        2020-01-05 13:54 (gateway)
 
 ### sudo
 在執行sudo時會先查看/etc/sudoers中此用戶是否被授權，有的話才會使用root權限執行
-![[Linux_RH124_08_用戶管理_02_sudo流程.png]]
+![Linux_RH124_08_用戶管理_02_sudo流程](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_08_%E7%94%A8%E6%88%B6%E7%AE%A1%E7%90%86_02_sudo%E6%B5%81%E7%A8%8B.png?raw=true)
 
 - `sudo -i <指令>`，嘗試登入root，用於測試此用戶是否有sudo權限
 	```bash

@@ -1,4 +1,4 @@
-# Linux 基礎設置
+# Linux_RH124_01_基礎設置
 ## 🐧環境安裝
 - Virtual Box：[VirtualBox 虛擬機器軟體安裝與設定教學](https://www.kjnotes.com/freeware/17)
 - IOS：
@@ -13,7 +13,7 @@
 參考：[Virtual Box 網路卡設定介紹篇 – 初階NAT](https://ithelp.ithome.com.tw/articles/10107536)
 1. VirtualBox設置
 \[虛擬機\]-->\[設定\]-->\[網路\]
-![[Linux_RH124_RH124_01_基礎設置_01_網路設置.png]]
+![Linux_RH124_RH124_01_基礎設置_01_網路設置](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_RH124_01_%E5%9F%BA%E7%A4%8E%E8%A8%AD%E7%BD%AE_01_%E7%B6%B2%E8%B7%AF%E8%A8%AD%E7%BD%AE.png?raw=true)
 
 2. 設置CentOS
 	- 若NAT連線成功則可連外網
@@ -61,13 +61,13 @@
 ## 🐧使用putty遠端連線
 - 也可使用xshell：[官網](https://www.netsarang.com/zh/xshell/)
 
-![[Linux_RH124_RH124_01_基礎設置_02_網路設置.png]]
+![[Linux_RH124_01_基礎設置_02_網路設置.png]]
 
 ## 🐧使用WinSCP遠端傳輸文件
 - 也可使用XFTP：[官網](https://www.netsarang.com/zh/xftp/)
 
-![[Linux_RH124_01_基礎設置_03_網路設置.png]]
-![[Linux_RH124_01_基礎設置_04_網路設置.png]]
+![Linux_RH124_01_基礎設置_03_網路設置](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_01_%E5%9F%BA%E7%A4%8E%E8%A8%AD%E7%BD%AE_03_%E7%B6%B2%E8%B7%AF%E8%A8%AD%E7%BD%AE.png?raw=true)
+![Linux_RH124_01_基礎設置_04_網路設置](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_01_%E5%9F%BA%E7%A4%8E%E8%A8%AD%E7%BD%AE_04_%E7%B6%B2%E8%B7%AF%E8%A8%AD%E7%BD%AE.png?raw=true)
 
 ## 🐧VirtualBox設定共用資料夾
 參考：[VirtualBox 4.0設定共用資料夾](http://blog.xuite.net/yh96301/blog/41935362-VirtualBox+4.0%E8%A8%AD%E5%AE%9A%E5%85%B1%E7%94%A8%E8%B3%87%E6%96%99%E5%A4%BE)

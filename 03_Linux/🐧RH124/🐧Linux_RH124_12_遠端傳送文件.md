@@ -1,4 +1,4 @@
-# Linux遠端傳送文件
+# Linux_RH124_12_遠端傳送文件
 - winscp2：Linux<-->windows文件傳輸工具
 - 遠端路徑表示方式：`<遠端用戶>@<遠端IP|電腦名稱>:<遠端目錄路徑>`，如：
 	1. `root@127.0.0.1:/home/mickey/Documents`

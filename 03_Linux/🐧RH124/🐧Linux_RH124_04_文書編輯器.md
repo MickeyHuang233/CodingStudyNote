@@ -1,4 +1,4 @@
-# vi和vim
+# Linux_RH124_04_文書編輯器
 參考：
 - [vim 程式編輯器](http://linux.vbird.org/linux_basic/0310vi.php)
 - [vi/vim快捷鍵一覽圖](https://kknews.cc/code/m22jz42.html)

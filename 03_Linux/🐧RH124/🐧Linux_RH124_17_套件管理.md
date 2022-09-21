@@ -1,4 +1,4 @@
-# 套件管理
+# Linux_RH124_17_套件管理
 注意：只有root用戶才可以安裝
 
 ## 🐧本地安裝 rpm
@@ -150,7 +150,7 @@ rpm的查詢功能只有在套件安裝後才可查詢詳細信息，-q-->query
 ### 設置yum軟件倉庫
 software repositories 
 在使用yum安裝套件前需要先指向yum server，否則linux不知道去哪下載套件
-![[Linux_RH124_17_套件管理_01_yum server.png]]
+![Linux_RH124_17_套件管理_01_yum server](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_17_%E5%A5%97%E4%BB%B6%E7%AE%A1%E7%90%86_01_yum%20server.png?raw=true)
 - [fedora yum server](https://dl.fedoraproject.org/pub/epel/)
 - 設定檔路徑：/etc/yum.repos.d/\*.repo，可一個設定檔寫多個，也可寫多個設定檔
 	```bash

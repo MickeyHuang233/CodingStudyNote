@@ -1,8 +1,8 @@
-# Linux網絡管理
+# Linux_RH124_16_網絡管理
 ## 🐧簡介
 - 網絡相關知識可參考：[[🌐網路架構_00_Overview]]
 - VM網絡配置示意圖
-	![[Linux_RH124_13_網路配置_01.png]]
+	![Linux_RH124_13_網路配置_01](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_13_%E7%B6%B2%E8%B7%AF%E9%85%8D%E7%BD%AE_01.png?raw=true)
 	
 ### 網絡介面命名規則
 1. 第一、二個字元代表網絡類型
@@ -558,7 +558,7 @@ DNS相關介紹可參考：[[🌐網路架構_02_TCP IP]]
 ### 理論介紹
 - 固定IP-->建議設置電腦名稱，并注冊至DNS Server
 - 動態IP-->因為IP每次開機都會不一樣，所以不建議設置電腦名稱
-	![[Linux_RH124_16_網絡管理_01_動態IP取hostname過程.png]]
+	![Linux_RH124_16_網絡管理_01_動態IP取hostname過程](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_16_%E7%B6%B2%E7%B5%A1%E7%AE%A1%E7%90%86_01_%E5%8B%95%E6%85%8BIP%E5%8F%96hostname%E9%81%8E%E7%A8%8B.png?raw=true)
 
 ### 查看及修改hostname
 - `hostname`，查看電腦名稱，是讀取/etc/hostname
@@ -588,7 +588,7 @@ DNS相關介紹可參考：[[🌐網路架構_02_TCP IP]]
 	```
 
 ### hostname名稱解析
-![[Linux_RH124_16_網絡管理_02_名稱解析.png]]
+![Linux_RH124_16_網絡管理_02_名稱解析](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_16_%E7%B6%B2%E7%B5%A1%E7%AE%A1%E7%90%86_02_%E5%90%8D%E7%A8%B1%E8%A7%A3%E6%9E%90.png?raw=true)
 - /etc/hosts，相當於local DNS設置
 	```
 	<IP> <full hostname> <short hostname>

@@ -1,4 +1,4 @@
-# Linux服務管理
+# Linux_RH124_10_服務管理
 - 服務(service)本質就是進程，但是運行在後台的，通常都會監聽某個端口，等待其它程序的請求，如：mysql、sshd、防火墻…等。
 - 傳統的Linux都是靠System V的init來啟動各項系統服務，而現行主流的Linux發行版都用systemd來管理系統服務，主要systemd有相依性檢查，會將有相關性的服務一并開啟，所以systemd管理下開機速度更快、效能更好。
 - 所有被systemd管理的服務被稱為Service Unit
@@ -228,4 +228,4 @@ telnet 192.168.0.14 22
 
 ## setup
 `setup`，查看服務名
-![[Linux_RH124_10_服務管理_02_setup.png]]
+![Linux_RH124_10_服務管理_02_setup](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_10_%E6%9C%8D%E5%8B%99%E7%AE%A1%E7%90%86_02_setup.png?raw=true)

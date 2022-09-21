@@ -1,10 +1,10 @@
-# Log查看
+# Linux_RH124_14_Log查看
 ## 🐧簡介
-![[Linux_RH124_15_Log查看_01_舊架構底下syslog結構.png]]
+![Linux_RH124_15_Log查看_01_舊架構底下syslog結構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_15_Log%E6%9F%A5%E7%9C%8B_01_%E8%88%8A%E6%9E%B6%E6%A7%8B%E5%BA%95%E4%B8%8Bsyslog%E7%B5%90%E6%A7%8B.png?raw=true)
 1. 以前Red Hat的kernal的log是交給klogd管理，而klogd會交由syslogd處理，而其他的應用程序的log則直接交由syslogd處理
 2. syslogd會查看設定檔/etc/syslog.conf，將log分類後存至/var/log/中
 
-![[Linux_RH124_15_Log查看_02_當前架構底下syslog結構.png]]
+![Linux_RH124_15_Log查看_02_當前架構底下syslog結構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_15_Log%E6%9F%A5%E7%9C%8B_02_%E7%95%B6%E5%89%8D%E6%9E%B6%E6%A7%8B%E5%BA%95%E4%B8%8Bsyslog%E7%B5%90%E6%A7%8B.png?raw=true)
 1. Red Hat架構則全交由system-journald負責，而system-journald除了自己留一份log外還交給rsyslog打印log
 2. 下一個版本可能就會把rsyslog刪掉了
 
@@ -44,7 +44,7 @@ rsyslog的log檔就是文字檔，直接看就可以了
 		- 7，debug
 	3. 處理方式：log儲存路徑、給終端機視窗、另一Linux主機…等
 - log打印內容
-	![[Linux_RH124_15_Log查看_03_log內容.png]]
+	![Linux_RH124_15_Log查看_03_log內容](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_15_Log%E6%9F%A5%E7%9C%8B_03_log%E5%85%A7%E5%AE%B9.png?raw=true)
 
 ### logrotate 定期打包工具
 路徑：/etc/logrotate.conf

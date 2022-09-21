@@ -1,4 +1,4 @@
-# 文件目錄操作
+# Linux_RH124_05_文件目錄操作
 ## 🐧通用的表達方式
 ### ~
 - `~`，代表用戶家目錄
@@ -241,7 +241,7 @@ k、M、G
 [root@mickey ~]# find /home -perm 777
 ```
 2. 權限u含有3(wx)、g含有2(w)、o含有4(rw)，同時成立；0表示忽略
-	![[Linux_RH124_06_文件目錄操作_02_權限查找.png]]
+	![Linux_RH124_06_文件目錄操作_02_權限查找](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_06_%E6%96%87%E4%BB%B6%E7%9B%AE%E9%8C%84%E6%93%8D%E4%BD%9C_02_%E6%AC%8A%E9%99%90%E6%9F%A5%E6%89%BE.png?raw=true)
 ```bash
 [root@mickey ~]# find /home -perm -324
 [root@mickey ~]# find /home -perm -004
@@ -628,4 +628,4 @@ total 28
 
 **目錄、軟鏈接、硬鏈接存儲方式**
 hard link不能跨device，因此實務上很少使用，soft link則無此問題。
-![[Linux_RH124_06_文件目錄操作_01_目錄、軟鏈接、硬鏈接存儲方式.png]]
+![Linux_RH124_06_文件目錄操作_01_目錄、軟鏈接、硬鏈接存儲方式](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_06_%E6%96%87%E4%BB%B6%E7%9B%AE%E9%8C%84%E6%93%8D%E4%BD%9C_01_%E7%9B%AE%E9%8C%84%E3%80%81%E8%BB%9F%E9%8F%88%E6%8E%A5%E3%80%81%E7%A1%AC%E9%8F%88%E6%8E%A5%E5%AD%98%E5%84%B2%E6%96%B9%E5%BC%8F.png?raw=true)

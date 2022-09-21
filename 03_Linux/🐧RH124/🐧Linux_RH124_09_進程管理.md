@@ -1,21 +1,21 @@
-# Linux進程管理
-|系統|進程方式|
-|---|---|
-|dos系統|單人單工|
-|Windows|單人多工|
-|Linux|多人多工|
-|x86 cpu|單工-->假多工(每個process只執行1/10秒)|
+# Linux_RH124_09_進程管理
+| 系統    | 進程方式                               |
+| ------- | -------------------------------------- |
+| dos系統 | 單人單工                               |
+| Windows | 單人多工                               |
+| Linux   | 多人多工                               |
+| x86 cpu | 單工-->假多工(每個process只執行1/10秒) |
 
 ## 🐧基本介紹
 - 執行進程(process)的方法
 	1. exec：執行Shell
 	2. fork：呼叫子進程，在執行子進程時，父進程就沒有控制權
-		![[Linux_RH124_10_進程管理_01_進程生命周期.png]]
+		![Linux_RH124_10_進程管理_01_進程生命周期](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_10_%E9%80%B2%E7%A8%8B%E7%AE%A1%E7%90%86_01_%E9%80%B2%E7%A8%8B%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.png?raw=true)
 - 進程號：PID
 - 父進程號：PPID
 
 ## 🐧進程狀態
-![[Linux_RH124_10_進程管理_02_進程狀態.png]]
+![Linux_RH124_10_進程管理_02_進程狀態](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_10_%E9%80%B2%E7%A8%8B%E7%AE%A1%E7%90%86_02_%E9%80%B2%E7%A8%8B%E7%8B%80%E6%85%8B.png?raw=true)
 參考：[Linux進程狀態 -知乎](https://zhuanlan.zhihu.com/p/344725512)
 - Running：R
 - Sleeping：S(在waiting queue中)、D、K、I
@@ -104,21 +104,21 @@
 	```
 - 欄位說明
 	1. PID，進程編號
-	1. PPID，父進程編號
-	1. TTY，終端機號
-	1. TIME，此進程占用CPU時間
-	1. CMD，正在執行命令或進程名
-	1. USER，用戶名
-	1. PID，進程id
-	1. %CPU，占用的cpu
-	1. %MEM，占用內存
-	1. VSZ，使用的虛擬內存
-	1. RSS，使用物理內存情況
-	1. TTY，使用的終端
-	1. STAT，進程的狀態
-	1. START，啟動時間
-	1. TIME，占用cpu總時間
-	1. COMMAND，進程執行時的命令行
+	2. PPID，父進程編號
+	3. TTY，終端機號
+	4. TIME，此進程占用CPU時間
+	5. CMD，正在執行命令或進程名
+	6. USER，用戶名
+	7. PID，進程id
+	8. %CPU，占用的cpu
+	9. %MEM，占用內存
+	10. VSZ，使用的虛擬內存
+	11. RSS，使用物理內存情況
+	12. TTY，使用的終端
+	13. STAT，進程的狀態
+	14. START，啟動時間
+	15. TIME，占用cpu總時間
+	16. COMMAND，進程執行時的命令行
 
 ## 🐧前景及背景作業
 ### 查看後台進程 jobs
@@ -172,16 +172,16 @@ sleep 10000
 ```
 
 ### 中斷信號 kill signal
-|signal|name|description|
-|---|---|---|
-|1|hangup|掛起|
-|2|keyboard interrupt|中斷執行中的線程，相當於Ctrl+C|
-|3|keyboard quit|將線程的記憶體內容dump至文件，相當於Ctrl+\|
-|9|kill|線程停止，程式不正常停止|
-|15|terminate(default)|線程以正常流程停止|
-|18|continue|線程繼續執行|
-|19|stop|線程暫停|
-|20|keyboard stop|後台執行線程，相當於Ctrl+Z|
+| signal | name               | description                                 |
+| ------ | ------------------ | ------------------------------------------- |
+| 1      | hangup             | 掛起                                        |
+| 2      | keyboard interrupt | 中斷執行中的線程，相當於Ctrl+C              |
+| 3      | keyboard quit      | 將線程的記憶體內容dump至文件，相當於Ctrl+\| |
+| 9      | kill               | 線程停止，程式不正常停止                    |
+| 15     | terminate(default) | 線程以正常流程停止                          |
+| 18     | continue           | 線程繼續執行                                |
+| 19     | stop               | 線程暫停                                    |
+| 20     | keyboard stop      | 後台執行線程，相當於Ctrl+Z                  |
 
 `kill -l`，查看所有signal，中斷信號可以指定號碼，也可用單字指定
 ```bash
@@ -388,28 +388,28 @@ root     pts/1    192.168.56.1     11:57    0.00s  0.02s  0.00s w
 - `top -d 10`，指定每10秒更新(默認為3秒
 - `-P`：根据CPU使用百分比大小进行排序；
 
-![[Linux_RH124_10_進程管理_03_top.png]]
+![Linux_RH124_10_進程管理_03_top](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_10_%E9%80%B2%E7%A8%8B%E7%AE%A1%E7%90%86_03_top.png?raw=true)
 
 - 欄位說明
 	1. PID，進程號
 	2. USER，進程所有者
 	3. VIRT，virtual memory虛擬空間大小，是真實使用的內存+映射進程自己使用的內存
 	4. RES，resident memory，常駐內存
-		![[Linux_RH124_10_進程管理_04_內存劃分.png]]
+		![Linux_RH124_10_進程管理_04_內存劃分](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_10_%E9%80%B2%E7%A8%8B%E7%AE%A1%E7%90%86_04_%E5%85%A7%E5%AD%98%E5%8A%83%E5%88%86.png?raw=true)
 	5. SHR，shared memory，共享內存
 
-|控制版面命令|說明|
-|---|---|
-|?<br/>h|顯示幫助畫面|
-|l<br/>t<br/>m|切換平均負載(load)信息<br/>切換進程(threads)信息<br/>切換內存(memory)信息|
-|1|切換單個CPU和所有CPU總和的信息|
-|s|改變兩次刷新的間隔秒數，可為小數。輸入0代表不斷刷新，默認5s|
-|b<br/>Shift + b|高亮顯示正在運行的進程，默認是粗體<br/>加粗顯示正在運行的進程，默認打開|
-|k|終止進程|
-|r|重新安排一個進程的優先級別|
-|q|離開|
-|Shift + w|write(save)版面存檔|
-|Shift + h|切換顯示總線程或單一線程|
-|u<br/>Shift + u|過濾用戶|
-|Shift + m|按內存使用狀況對進程排序顯示|
-|Shift + p|按CPU占用狀況對進程排序顯示|
+| 控制版面命令    | 說明                                                                      |
+| --------------- | ------------------------------------------------------------------------- |
+| ?<br/>h         | 顯示幫助畫面                                                              |
+| l<br/>t<br/>m   | 切換平均負載(load)信息<br/>切換進程(threads)信息<br/>切換內存(memory)信息 |
+| 1               | 切換單個CPU和所有CPU總和的信息                                            |
+| s               | 改變兩次刷新的間隔秒數，可為小數。輸入0代表不斷刷新，默認5s               |
+| b<br/>Shift + b | 高亮顯示正在運行的進程，默認是粗體<br/>加粗顯示正在運行的進程，默認打開   |
+| k               | 終止進程                                                                  |
+| r               | 重新安排一個進程的優先級別                                                |
+| q               | 離開                                                                      |
+| Shift + w       | write(save)版面存檔                                                       |
+| Shift + h       | 切換顯示總線程或單一線程                                                  |
+| u<br/>Shift + u | 過濾用戶                                                                  |
+| Shift + m       | 按內存使用狀況對進程排序顯示                                              |
+| Shift + p       | 按CPU占用狀況對進程排序顯示                                               |
