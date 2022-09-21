@@ -3,7 +3,7 @@
 `java.io`
 [Java8 官方API文檔 IO](https://docs.oracle.com/javase/8/docs/api/java/io/package-frame.html)
 [Java.io包方法說明(中文)](http://tw.gitbook.net/java/io/index.html)
-![[JavaSE_04_IO_01.png]]
+![JavaSE_04_IO_01](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%F0%9F%8D%80JavaSE/images/JavaSE_04_IO_01.png?raw=true)
 流：數據(字符、字節)，1個字符=2個字節=16個二進制位
 
 ### 頂級父類
@@ -331,7 +331,7 @@ bos.close();
 作用：解決亂碼問題
 字符編碼：一最自然語言的字符與二進制數間的對應規則。
 編碼表(字符集)：支持所有字符的集合，包括各國文字、符號、數字…等。
-![[JavaSE_04_IO_02.png]]
+![JavaSE_04_IO_02](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/01_%E5%9F%BA%E7%A4%8E/%F0%9F%8D%80JavaSE/images/JavaSE_04_IO_02.png?raw=true)
 
 ### 字符輸出轉換流 OutputStreamWriter
 [Java8 官方API文檔 OutputStreamWriter](https://docs.oracle.com/javase/8/docs/api/java/io/OutputStreamWriter.html)

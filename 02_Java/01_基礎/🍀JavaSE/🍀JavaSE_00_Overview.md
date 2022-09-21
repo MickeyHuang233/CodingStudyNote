@@ -1,11 +1,3 @@
-#📆2021年 
-狀態:: #☑DONE
-完成日期:: 
-標籤:: #💻編程/🌠Java/01_Java基礎 #🗂Overview 
-子筆記:: [[🍀JavaSE_01_基礎語法]], [[🍀JavaSE_02_面向對象]], [[🍀JavaSE_03_集合]], [[🍀JavaSE_04_IO]], [[🍀JavaSE_05_多線程并發]], [[🍀JavaSE_06_異常處理]], [[🍀JavaSE_07_注解]], [[🍀JavaSE_08_反射]]
-教程:: [Java IO_教程1](https://www.bilibili.com/video/BV1Ub411v7FS?p=71), [Java IO_教程2](https://www.bilibili.com/video/BV1kT4y1M7vt), [Java注解和反射_教程1](https://www.bilibili.com/video/BV1p4411P7V3), [Java注解和反射_教程2](https://www.bilibili.com/video/av31471812?p=1&share_medium=android&share_source=copy_link&bbid=XY926809DF8B1A8E02D6087F6AD63905C624C&ts=1581952196230)
-備註:: 筆記搬運(Google Drive-->Obsidian)
-
 # JavaSE
 [Java官方文件](https://docs.oracle.com/en/java/javase/index.html)
 
