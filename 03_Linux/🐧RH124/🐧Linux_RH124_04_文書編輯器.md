@@ -4,7 +4,7 @@
 - [vi/vim快捷鍵一覽圖](https://kknews.cc/code/m22jz42.html)
 
 ## 🐧常見模式
-![vi三種模式的相互關係](http://linux.vbird.org/linux_basic/0310vi//centos7_vi-mode.gif)
+![vi三種模式的相互關係](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH124/images/Linux_RH124_04_%E6%96%87%E6%9B%B8%E7%B7%A8%E8%BC%AF%E5%99%A8_01_vi%E4%B8%89%E7%A8%AE%E6%A8%A1%E5%BC%8F%E7%9A%84%E7%9B%B8%E4%BA%92%E9%97%9C%E4%BF%82.png?raw=true)
 - 正常模式
 - 編輯模式
 - 命令行模式
