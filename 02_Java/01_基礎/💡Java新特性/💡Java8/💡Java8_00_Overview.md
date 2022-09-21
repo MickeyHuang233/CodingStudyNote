@@ -1,8 +1,4 @@
-###### tags: `#📆2021年`
-###### tags: `💻編程/🌠Java/01_Java基礎`
-###### tags: `🗂Overview`
-
-# Java 8 新特性
+# Java8_00_Overview
 ## 💡底層處理調整
 ### HashMap處理
 HashMap在Java8前是以**數組 + 鏈表**儲存，而在Java8是以**數組 + 鏈表/紅黑數**儲存
@@ -30,10 +26,3 @@ Java 8前後JVM的調整
 - 改動優點：
 	1. 減少方法區的垃圾回收機制(方法區容量快滿才會調用)，效率上升
 	2. 減少OutOfMemeryException出現概率
-
----
-Catalog
----
-- [💡Java8_01_Lambda](https://hackmd.io/@W3snnHv8TgC_U2ElYL9ATQ/Java8_01_Lambda)
-- [💡Java8_02_StreamAPI](https://hackmd.io/@W3snnHv8TgC_U2ElYL9ATQ/Java8_02_StreamAPI)
-- []

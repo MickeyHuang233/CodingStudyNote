@@ -1,4 +1,4 @@
-# Stream API
+# Java8_02_StreamAPI
 `java.util.stream`
 Java8 官方API文檔：
 	1. [java.util.stream](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-frame.html)

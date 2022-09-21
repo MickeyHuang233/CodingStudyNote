@@ -1,4 +1,4 @@
-# Optional
+# Java8_03_Optional
 `java.util.Optional`為容器類，在建立Optional或取出時，會報出NullPointerException，因此此類的目地在於當出現`java.lang.NullPointerException`時，比較好debug。
 
 ## 💡建立Optional

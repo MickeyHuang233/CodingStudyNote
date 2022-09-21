@@ -1,6 +1,4 @@
-###### tags: `📆2021年`
-###### tags: `💻編程/🚋共用`
-###### tags: `🗂Overview`
+###### tags: `📆2021年` `💻編程/🚋共用` `🗂Overview`
 
 # JSON
 JSON(JavaScript Object Notation，JS對象表示法)，以字串為基底去儲存和傳送簡單結構資料，你可以透過特定的格式去儲存任何資料(字串、數字、陣列、物件)。
