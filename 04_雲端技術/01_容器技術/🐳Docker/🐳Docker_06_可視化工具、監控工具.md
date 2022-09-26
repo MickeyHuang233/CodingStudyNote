@@ -14,7 +14,7 @@
 	portainer/portainer-ce
 	```
 	2. 訪問[http://192.168.56.102:9000/]()
-		![[Docker_06_可視化工具、監控工具_01_建立帳號.png]]
+		![Docker_06_可視化工具、監控工具_01_建立帳號](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/01_%E5%AE%B9%E5%99%A8%E6%8A%80%E8%A1%93/%F0%9F%90%B3Docker/images/Docker_06_%E5%8F%AF%E8%A6%96%E5%8C%96%E5%B7%A5%E5%85%B7%E3%80%81%E7%9B%A3%E6%8E%A7%E5%B7%A5%E5%85%B7_01_%E5%BB%BA%E7%AB%8B%E5%B8%B3%E8%99%9F.png?raw=true)
 
 ## 🐳監控工具CIG
 - 使用`docker stats`指令，會有以下不足：
@@ -106,4 +106,4 @@ services:
 		Password = root
 		```
 	2. 監控業務面版，Dashboard-->New dashboard-->Add a new panel
-		![Docker_06_可視化工具、監控工具_01_Granfana New Dashboard](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/01_%E5%AE%B9%E5%99%A8%E6%8A%80%E8%A1%93/%F0%9F%90%B3Docker/images/Docker_06_%E5%8F%AF%E8%A6%96%E5%8C%96%E5%B7%A5%E5%85%B7%E3%80%81%E7%9B%A3%E6%8E%A7%E5%B7%A5%E5%85%B7_01_Granfana%20New%20Dashboard.png?raw=true)
+		![Docker_06_可視化工具、監控工具_01_Granfana New Dashboard](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/01_%E5%AE%B9%E5%99%A8%E6%8A%80%E8%A1%93/%F0%9F%90%B3Docker/images/Docker_06_%E5%8F%AF%E8%A6%96%E5%8C%96%E5%B7%A5%E5%85%B7%E3%80%81%E7%9B%A3%E6%8E%A7%E5%B7%A5%E5%85%B7_02_Granfana%20New%20Dashboard.png?raw=true)
