@@ -1,4 +1,4 @@
-# Docker鏡像
+# Docker_02_鏡像
 - 在`docker pull`時可以看到鏡像是一層一層向下下載的，因為鏡像是使用UnionFS實現的
 	```bash
 	[mickey@vm102 ~]$ sudo docker pull tomcat
@@ -16,7 +16,7 @@
 	1. bootfs(boot file system)，主要包含bootloader(用於引導加載kernel)、kernel，處於Docker鏡像最底層，啟動時會加載bootfs至內存
 	2. rootfs(root file system)，就是各種不同操作系統發行版，包含標準目錄、文件，處於bootfs之上
 - Docker中，鏡像層是只讀，只有容器層是可寫
-	![[Docker_02_鏡像_01_鏡像分層簡易架構圖.png]]
+	![Docker_02_鏡像_01_鏡像分層簡易架構圖](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/01_%E5%AE%B9%E5%99%A8%E6%8A%80%E8%A1%93/%F0%9F%90%B3Docker/images/Docker_02_%E9%8F%A1%E5%83%8F_01_%E9%8F%A1%E5%83%8F%E5%88%86%E5%B1%A4%E7%B0%A1%E6%98%93%E6%9E%B6%E6%A7%8B%E5%9C%96.png?raw=true)
 
 ## 🐳提交鏡像
 1. 下載鏡像、建立container
@@ -35,8 +35,8 @@
 - Docker公有庫：[https://hub.docker.com/]()
 
 ### 建立個人倉庫
-![[Docker_02_鏡像_02_建立個人倉庫.png]] 
-![[Docker_02_鏡像_03_建立個人倉庫.png]]
+![Docker_02_鏡像_02_建立個人倉庫](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/01_%E5%AE%B9%E5%99%A8%E6%8A%80%E8%A1%93/%F0%9F%90%B3Docker/images/Docker_02_%E9%8F%A1%E5%83%8F_02_%E5%BB%BA%E7%AB%8B%E5%80%8B%E4%BA%BA%E5%80%89%E5%BA%AB.png?raw=true)
+![Docker_02_鏡像_03_建立個人倉庫](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/01_%E5%AE%B9%E5%99%A8%E6%8A%80%E8%A1%93/%F0%9F%90%B3Docker/images/Docker_02_%E9%8F%A1%E5%83%8F_03_%E5%BB%BA%E7%AB%8B%E5%80%8B%E4%BA%BA%E5%80%89%E5%BA%AB.png?raw=true)
 
 ### 上傳鏡像
 1. `docker login`，登入Docker Hub

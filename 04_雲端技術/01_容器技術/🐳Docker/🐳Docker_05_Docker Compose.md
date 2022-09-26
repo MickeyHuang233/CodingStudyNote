@@ -1,4 +1,4 @@
-# Docker Compose
+# Docker_05_Docker Compose
 - Docker Compose是Docker官方的開源項目，通過[[🍀YAML]]配置容器間的調用關系，實現對Docker容器集群的快速編排
 - Docker Compose允許通過單獨的docker-compose.yml模板文件定義一組關聯的應用容器為一個項目(project)
 - 官網下載：[Install Docker Compose](https://docs.docker.com/compose/install/)

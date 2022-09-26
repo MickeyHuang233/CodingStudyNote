@@ -1,4 +1,4 @@
-# Docker Network
+# Docker_04_Docker Network
 - 啟動docker.service時用`ifconfig`會看到docker0的虛擬網橋，它的作用和virbr0差不多
 	```bash
 	[mickey@vm102 springboot]$ ifconfig
@@ -54,7 +54,7 @@
 ## 🐳網絡模式種類
 ### bridge
 - 虛擬網橋，默認，為每個容器分配IP，并將容器連接到docker0，讓本機和容器間可以通過網橋相互通信
-	![[Docker_04_Docker Network_01_bridge.png]]
+	![Docker_04_Docker Network_01_bridge](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/01_%E5%AE%B9%E5%99%A8%E6%8A%80%E8%A1%93/%F0%9F%90%B3Docker/images/Docker_04_Docker%20Network_01_bridge.png?raw=true)
 - 建立容器時用`--network bridge`指定，默認使用
 - 本機端看網卡資訊，`if21`表示接上容器的21號的邏輯網卡
 	```bash
@@ -77,7 +77,7 @@
 
 ### host
 - 直接使用主機的IP、端口，需要直接從`localhost:<端口號>`找容器，若端口被占時則遞增
-	![[Docker_04_Docker Network_02_host.png]]
+	![Docker_04_Docker Network_02_host](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/01_%E5%AE%B9%E5%99%A8%E6%8A%80%E8%A1%93/%F0%9F%90%B3Docker/images/Docker_04_Docker%20Network_01_bridge.png?raw=true)
 - 建立容器時用`--network host`指定，此時指定`-p`端口映射會有警告信息，因為此設置無意義
 	```bash
 	[mickey@vm102 ~]$ sudo docker run -d --network host -p 6379:6379 redis
@@ -123,7 +123,7 @@
 
 ### container
 - 創建容器時不會創建自己的網卡、IP，而是指定容器共享的IP、端口范圍…
-	![[Docker_04_Docker Network_03_container.png]]
+	![Docker_04_Docker Network_03_container](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/01_%E5%AE%B9%E5%99%A8%E6%8A%80%E8%A1%93/%F0%9F%90%B3Docker/images/Docker_04_Docker%20Network_03_container.png?raw=true)
 - 建立容器時用`--network container:<container_name>`指定，此時指定`-p`端口映射會有錯誤信息，因為此設置無意義
 	1. 啟動容器1
 		```bash
