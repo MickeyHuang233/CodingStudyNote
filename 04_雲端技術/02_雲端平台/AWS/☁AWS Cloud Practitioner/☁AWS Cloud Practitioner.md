@@ -37,15 +37,15 @@
 	- [Spot Instances](https://aws.amazon.com/tw/ec2/spot/pricing/): They allow you to request spare Amazon EC2 computing capacity for up to 90% off of the On-Demand price. AWS can reclaim the instance at any time they need it, giving you a two-minute warning to finish up work and save state.
 	- [Dedicated Hosts](https://aws.amazon.com/tw/ec2/dedicated-hosts/): Physical hosts dedicated for your use for EC2
 - Scaling EC2: scalability and elasticity
-	![[Cloud Practitioner_01_auto scaling group.png]]
+	![Cloud Practitioner_01_auto scaling group](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_01_auto%20scaling%20group.png?raw=true)
 
 ### Amazon ELB
 [Amazon ELB(Elastic Load Balancing)](https://aws.amazon.com/tw/elasticloadbalancing/): A load balancer is an application that takes in requests and routes them to the instances to be processed.
-![[Cloud Practitioner_02_Elastic Load Balancing.png]]
+![Cloud Practitioner_02_Elastic Load Balancing](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_02_Elastic%20Load%20Balancing.png?raw=true)
 
 ### Messaging and queuing
 - [Amazon SQS(Simple Queue Service)](https://aws.amazon.com/tw/sqs/)
-	![[Cloud Practitioner_03_Simple Queue Service.png]]
+	![Cloud Practitioner_03_Simple Queue Service](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_03_Simple%20Queue%20Service.png?raw=true)
 	- send, store, messages between software components
 	- at any volume
 	- The data contained within a message is called a payload
@@ -58,7 +58,7 @@
 - [Amazon Elastic Kubernetes Service (Amazon EKS)](https://aws.amazon.com/eks/)<--[Kubernetes](https://kubernetes.io/)
 - [Serverless](https://aws.amazon.com/getting-started/deep-dive-serverless/): Your code runs on servers, but you do not need to provision or manage these servers.
 	- [AWS Lambda](https://aws.amazon.com/lambda) is a service that lets you run code without needing to provision or manage servers.
-		![[Cloud Practitioner_04_AWS Lambda.png]]
+		![Cloud Practitioner_04_AWS Lambda](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_04_AWS%20Lambda.png?raw=true)
 	- [AWS Fargate](https://aws.amazon.com/fargate/)  is a serverless compute platform for ECS or EKS.
 
 ## ☁Global Infrastructure and Reliability
@@ -73,10 +73,10 @@
 		- Pricing
 - Availability Zone: An Availability Zone is a single data center or a group of data centers within a Region.
 	- you run across at least two Availability Zones in a Region.
-	![[Cloud Practitioner_05_Availability Zone.png]]
+	![Cloud Practitioner_05_Availability Zone](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_05_Availability%20Zone.png?raw=true)
 -  [Amazon CloudFront](https://aws.amazon.com/tw/cloudfront/) is a service that helps deliver data, video, applications, and APIs to customers around the world with low latency and high transfer speeds.
 	- An **edge location** is a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
-	![[Cloud Practitioner_06_Amazon CloudFront.png]]
+	![Cloud Practitioner_06_Amazon CloudFront](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_06_Amazon%20CloudFront.png?raw=true)
 - [Amazon Route 53](https://aws.amazon.com/tw/route53/) helping direct customers to the correct web locations with reliably low latency.
 - [AWS Outposts](https://aws.amazon.com/tw/outposts/rack/features/) will basically install a fully operational mini Region, right inside your own data center.
 
@@ -109,14 +109,14 @@
 	- Private subnets contain resources that should be accessible only through your private network
 - connect VPC gateway
 	- Internet gateway(IGW): An internet gateway is a connection between a VPC and the internet.
-		![[Cloud Practitioner_07_Internet gateway.png]]
+		![Cloud Practitioner_07_Internet gateway](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_07_Internet%20gateway.png?raw=true)
 	- Virtual private gateway: Virtual private gateway establish a virtual private network (VPN) connection between your VPC and a private network, such as an on-premises data center or internal corporate network.
-		![[Cloud Practitioner_08_Virtual private gateway.png]]
+		![Cloud Practitioner_08_Virtual private gateway](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_08_Virtual%20private%20gateway.png?raw=true)
 	- [AWS Direct Connect](https://aws.amazon.com/directconnect/) enables you to establish a dedicated private connection between your data center and a VPC.
-		![[Cloud Practitioner_09_AWS Direct Connect.png]]
+		![Cloud Practitioner_09_AWS Direct Connect](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_09_AWS%20Direct%20Connect.png?raw=true)
 
 ### Network ACLs and security group
-![[Cloud Practitioner_10_Network ACLs and security group.png]]
+![Cloud Practitioner_10_Network ACLs and security group](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_10_Network%20ACLs%20and%20security%20group.png?raw=true)
 - [Network access control lists (Network ACLs)](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html) is a virtual firewall that controls inbound and outbound traffic at the ==subnet level.==
 	- check to see if the sender is on the approved list when package access subnet.
 	- Network ACLs perform ==stateless== packet filtering. They remember nothing and check packets that cross the subnet border each way: inbound and outbound.
@@ -139,7 +139,7 @@
 - **Block storage** breaks those files down to small component parts or blocks.
 
 - [Instance Store](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html) provides ==temporary== ==block-level== storage for an Amazon EC2 instance.
-	![[Cloud Practitioner_11_Instance Store.png]]
+	![Cloud Practitioner_11_Instance Store](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_11_Instance%20Store.png?raw=true)
 
 - [Amazon Elastic Block Store (Amazon EBS)](https://aws.amazon.com/ebs) is a service that provides ==block-level== storage volumes that you can use with Amazon EC2 instances.
 	- If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available.
@@ -154,7 +154,7 @@
 | 主要性能屬性  | IOPS                                 | IOPS                             | MiB/s                      | MiB/s              |
 
 - [EBS snapshot](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html) is an incremental backup.
-	![[Cloud Practitioner_12_EBS snapshot.png]]
+	![Cloud Practitioner_12_EBS snapshot](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_12_EBS%20snapshot.png?raw=true)
 
 ### Amazon S3
 - **Object storage** treats any file as a complete, discreet object.
@@ -233,7 +233,7 @@
 ### AWS DMS
 [AWS Database Migration Service (AWS DMS)](https://aws.amazon.com/dms/) enables you to migrate relational databases, nonrelational databases, and other types of data stores.
 
-![[Cloud Practitioner_13_AWS DMS.jpg]]
+![Cloud Practitioner_13_AWS DMS](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_13_AWS%20DMS.jpg?raw=true)
 
 - the source and target databases don't have to be of the same type.
 - use cases for AWS DMS
@@ -256,7 +256,7 @@
 - [AWS Security Blog](https://aws.amazon.com/blogs/security/)
 
 ### Shared responsibility model
-![[Cloud Practitioner_14_Shared responsibility model.png]]
+![Cloud Practitioner_14_Shared responsibility model](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_14_Shared%20responsibility%20model.png?raw=true)
 [Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model/) divides into customer responsibilities (commonly referred to as “security ==in== the cloud”) and AWS responsibilities (commonly referred to as “security ==of== the cloud”).
 
 ### AWS IAM
@@ -295,7 +295,7 @@
 - You can group accounts into organizational units, or OUs.
 - You can centrally control permissions for the accounts in your organization by using [Service Control Policies (SCPs)](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html).
 - An SCP affects all IAM users, groups, and roles within an account, including the AWS account root user.
-![[Cloud Practitioner_15_organizational units.png]]
+![Cloud Practitioner_15_organizational units](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_15_organizational%20units.png?raw=true)
 
 ### Compliance
 - [AWS Artifact](https://aws.amazon.com/artifact) is a service that provides on-demand access to AWS security and compliance reports and select online agreements. AWS Artifact consists of two main sections: 
@@ -329,7 +329,7 @@
 
 ### AWS Trusted Advisor
 - [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/) is a web service that inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices.
-	![[Cloud Practitioner_16_AWS Trusted Advisor.png]]
+	![Cloud Practitioner_16_AWS Trusted Advisor](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_16_AWS%20Trusted%20Advisor.png?raw=true)
 	- cost optimization
 	- performance
 	- security
