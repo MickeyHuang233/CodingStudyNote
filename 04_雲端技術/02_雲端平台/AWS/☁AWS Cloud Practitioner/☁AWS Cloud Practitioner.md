@@ -1,12 +1,6 @@
-#📆2022年 
-狀態:: #🔲TODO 
-完成日期:: 2022-12-31
-標籤:: #💻編程/☁雲端/AWS
-子筆記:: 
-教程:: [AWS官方考試資源](https://explore.skillbuilder.aws/learn/course/134/play/31418/aws-cloud-practitioner-essentials-all-modules)
-備註:: 
+###### tags: `📆2022年 ` `💻編程/☁雲端/AWS`
 
-# AWS Cloud Practitioner
+# ☁AWS Cloud Practitioner
 ## ☁Introduction to AWS
 - pay-as-you-go: you only pay for what you use, don't pre-pay for anything.
 - Deployment models for cloud computing
