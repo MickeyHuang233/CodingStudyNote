@@ -31,7 +31,8 @@
 	- [Spot Instances](https://aws.amazon.com/tw/ec2/spot/pricing/): They allow you to request spare Amazon EC2 computing capacity for up to 90% off of the On-Demand price. AWS can reclaim the instance at any time they need it, giving you a two-minute warning to finish up work and save state.
 	- [Dedicated Hosts](https://aws.amazon.com/tw/ec2/dedicated-hosts/): Physical hosts dedicated for your use for EC2
 - Scaling EC2: scalability and elasticity
-	![Cloud Practitioner_01_auto scaling group](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_01_auto%20scaling%20group.png?raw=true)
+ 
+  ![Cloud Practitioner_01_auto scaling group](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_01_auto%20scaling%20group.png?raw=true)
 
 ### Amazon ELB
 [Amazon ELB(Elastic Load Balancing)](https://aws.amazon.com/tw/elasticloadbalancing/): A load balancer is an application that takes in requests and routes them to the instances to be processed.
@@ -39,7 +40,8 @@
 
 ### Messaging and queuing
 - [Amazon SQS(Simple Queue Service)](https://aws.amazon.com/tw/sqs/)
-	![Cloud Practitioner_03_Simple Queue Service](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_03_Simple%20Queue%20Service.png?raw=true)
+ 
+     ![Cloud Practitioner_03_Simple Queue Service](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/04_%E9%9B%B2%E7%AB%AF%E6%8A%80%E8%A1%93/02_%E9%9B%B2%E7%AB%AF%E5%B9%B3%E5%8F%B0/AWS/%E2%98%81AWS%20Cloud%20Practitioner/images/Cloud%20Practitioner_03_Simple%20Queue%20Service.png?raw=true)
 	- send, store, messages between software components
 	- at any volume
 	- The data contained within a message is called a payload
