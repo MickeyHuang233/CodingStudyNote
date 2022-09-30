@@ -1,6 +1,6 @@
 ###### tags: `📆2022年 ` `💻編程/☁雲端/AWS`
 
-# ☁AWS Cloud Practitioner
+# AWS Cloud Practitioner
 ## ☁Introduction to AWS
 - pay-as-you-go: you only pay for what you use, don't pre-pay for anything.
 - Deployment models for cloud computing
