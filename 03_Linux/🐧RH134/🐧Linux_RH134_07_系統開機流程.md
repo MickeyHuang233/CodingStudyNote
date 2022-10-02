@@ -19,7 +19,7 @@
 - `halt`，只會關作業系統，不會關機(很久以前關機用的)，相當於`systemctl halt`
 
 ## 🐧Linux運行級別
-![[Linux_RH134_07_系統開機流程_02_開機步驟.png]]
+![Linux_RH134_07_系統開機流程_02_開機步驟](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_07_%E7%B3%BB%E7%B5%B1%E9%96%8B%E6%A9%9F%E6%B5%81%E7%A8%8B_02_%E9%96%8B%E6%A9%9F%E6%AD%A5%E9%A9%9F.png?raw=true)
 - [Linux系统的7个运行级别](https://www.jianshu.com/p/635e8480a75e)
 - 類似於Windows的安全模式(**現在用其他方式**)
 	- 0：關機
@@ -80,18 +80,18 @@ Systemd Target，開機界面
 ### 開機時指定界面
 不走默認開機界面，在開機時決定要執行的界面(僅限單次)。
 1. 在boot loader menu，選擇第一項按E
-	![[Linux_RH134_07_系統開機流程_03_bootLoaderMenu.png]]
+	![Linux_RH134_07_系統開機流程_03_bootLoaderMenu](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_07_%E7%B3%BB%E7%B5%B1%E9%96%8B%E6%A9%9F%E6%B5%81%E7%A8%8B_03_bootLoaderMenu.png?raw=true)
 2. 在開頭為linux的那行最後加上`systemd.unit=<界面名稱>.target`
 	按Ctrl + X確定修改並繼續開機流程
-	![[Linux_RH134_07_系統開機流程_01_bootLoaderMenu.png]]
+	![Linux_RH134_07_系統開機流程_01_bootLoaderMenu](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_07_%E7%B3%BB%E7%B5%B1%E9%96%8B%E6%A9%9F%E6%B5%81%E7%A8%8B_01_bootLoaderMenu.png?raw=true)
 
 ## 🐧忘記root密碼操作流程
 前提：initramfs、kenel沒壞掉才可這樣修
 1. 在boot loader menu，選擇第一項按E
-	![[Linux_RH134_07_系統開機流程_03_bootLoaderMenu.png]]
+	![Linux_RH134_07_系統開機流程_03_bootLoaderMenu](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_07_%E7%B3%BB%E7%B5%B1%E9%96%8B%E6%A9%9F%E6%B5%81%E7%A8%8B_03_bootLoaderMenu.png?raw=true)
 2. 在開頭為linux的那行最後加上`rd.break`
 	按Ctrl + X確定修改並繼續開機流程，此時就不用輸入root密碼就可以登入
-	![[Linux_RH134_07_系統開機流程_05_bootLoaderMenu.png]]
+	![Linux_RH134_07_系統開機流程_05_bootLoaderMenu](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_07_%E7%B3%BB%E7%B5%B1%E9%96%8B%E6%A9%9F%E6%B5%81%E7%A8%8B_05_bootLoaderMenu.png?raw=true)
 3. `mount -o rw,remount /sysroot`，手動mount根目錄至硬碟-->可讀可寫
 4. `chroot /sysroot`，變更根目錄至硬碟，使執行的指定用的是硬碟中的指令
 5. `passwd`，變更root密碼

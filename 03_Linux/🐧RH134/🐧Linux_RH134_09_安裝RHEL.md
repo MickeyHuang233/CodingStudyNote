@@ -10,7 +10,7 @@ RHEL，Red Hat Enterprise Linux
 	VM磁碟映像檔路徑：/var/lib/libvirt/images/
 
 ## 🐧手動安裝
-![[Linux_RH134_09_安裝RHEL_01_安裝畫面.png]]
+![Linux_RH134_09_安裝RHEL_01_安裝畫面](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_09_%E5%AE%89%E8%A3%9DRHEL_01_%E5%AE%89%E8%A3%9D%E7%95%AB%E9%9D%A2.png?raw=true)
 
 ## 🐧自動化安裝 Kickstart
 - Kickstart是用於自動化安裝的程序
@@ -156,11 +156,11 @@ RHEL，Red Hat Enterprise Linux
 	- NFS Server：inst.ks=nfs:server:/dir/file
 	- 隨身碟：inst.ks=hd:device:/dir/file
 	- CD：inst.ks=cdrom:device
-	![[Linux_RH134_09_安裝RHEL_02_Kickstart.png]]
+	![Linux_RH134_09_安裝RHEL_02_Kickstart](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_09_%E5%AE%89%E8%A3%9DRHEL_02_Kickstart.png?raw=true)
 
 ## 🐧遠端安裝Linux系統
 ### 機器有公網IP
-![[Linux_RH134_09_安裝RHEL_03_遠端安裝.png]]
+![Linux_RH134_09_安裝RHEL_03_遠端安裝](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_09_%E5%AE%89%E8%A3%9DRHEL_03_%E9%81%A0%E7%AB%AF%E5%AE%89%E8%A3%9D.png?raw=true)
 - 情境描述：被安裝的機器有公網IP，無論安裝者的電腦是否有公網IP
 - 執行思路：安裝者的電腦直接向被安裝的機器請求畫面
 - 執行步驟：
@@ -174,7 +174,7 @@ RHEL，Red Hat Enterprise Linux
 	3. A：`<用戶publice IP>:1`
 
 ### 機器有無公網IP
-![[Linux_RH134_09_安裝RHEL_04_遠端安裝.png]]
+![Linux_RH134_09_安裝RHEL_04_遠端安裝](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_09_%E5%AE%89%E8%A3%9DRHEL_04_%E9%81%A0%E7%AB%AF%E5%AE%89%E8%A3%9D.png?raw=true)
 - 情境描述：被安裝的機器沒有公網IP，安裝者的電腦一定要有公網IP
 - 執行思路：安裝者的電腦先監聽請求，被安裝的機器向安裝者電腦發出請求
 - 執行步驟：
@@ -185,10 +185,10 @@ RHEL，Red Hat Enterprise Linux
 		```
 
 ## 🐧虛擬化技術
-![[Linux_RH134_10_Container管理_01_虛擬機架構.png]]
+![Linux_RH134_10_Container管理_01_虛擬機架構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_10_Container%E7%AE%A1%E7%90%86_01_%E8%99%9B%E6%93%AC%E6%A9%9F%E6%9E%B6%E6%A7%8B.png?raw=true)
 - KVM(Kernel-based Virtual Machine)，Linux開源管理虛擬機工具，使用`virsh`指令
 - RHV(Red Hat Virtualization)，使用瀏覽器管理虛擬機工具(只有一個管理節點)
-	![[Linux_RH134_09_安裝RHEL_05_RHVM示意.png]]
+	![Linux_RH134_09_安裝RHEL_05_RHVM示意](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_09_%E5%AE%89%E8%A3%9DRHEL_05_RHVM%E7%A4%BA%E6%84%8F.png?raw=true)
 - Red Hat OpenStack Platform(RHOSP)，虛擬機器管理平台
 
 ### 使用虛擬化條件
@@ -218,7 +218,7 @@ RHEL，Red Hat Enterprise Linux
 	![Cockpit管理虛擬機](https://www.tecmint.com/wp-content/uploads/2021/01/Select-Virtual-Machines.jpg)
 
 ### virsh工具管理
-![[Linux_RH134_09_安裝RHEL_06_virsh.png]]
+![Linux_RH134_09_安裝RHEL_06_virsh](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_09_%E5%AE%89%E8%A3%9DRHEL_06_virsh.png?raw=true)
 - 界面管理工具：virtual machine manager，使用參考官方文檔：[Red Hat 7](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_getting_started_guide/virt-manager-user-interface-description)
 	![virtual machine manager](https://access.redhat.com/webassets/avalon/d/Red_Hat_Enterprise_Linux-7-Virtualization_Getting_Started_Guide-en-US/images/5a5567cf374c05ba00ecfe248ea00c64/virt-machine-manager_vm_list-window.png)
 - 指令管理工具：`virsh`
@@ -235,7 +235,7 @@ RHEL，Red Hat Enterprise Linux
 		1. 映像檔放至：/var/lib/libvirt/images
 		2. `virsh define /tmp/servera.xml`，配置檔還原
 	- 設置網路橋接器(bridge)：指令可參考-->[[🐧Linux_RH124_16_網絡管理]]
-	![[Linux_RH134_09_安裝RHEL_07_網路橋接器示意.png]]
+	![Linux_RH134_09_安裝RHEL_07_網路橋接器示意](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_09_%E5%AE%89%E8%A3%9DRHEL_07_%E7%B6%B2%E8%B7%AF%E6%A9%8B%E6%8E%A5%E5%99%A8%E7%A4%BA%E6%84%8F.png?raw=true)
 		1. `nmcli connection add con-name br0 type bridge ifname virbr0 ipv4.address 192.168.56.102/24 ipv4.gateway 192.168.250.254 ipv4.dns 8.8.8.8 ipv4.method manual`，建立網路橋接器
 		2. `nmcli connection add con-name eth0 type bridge-slave ifname enp0s8 master br0`，將網卡接上網路橋接器，eth0為bridge所有，因此eth0沒有IP，IP在br0
 		3. 設置bridge IP為固定IP
@@ -251,7 +251,7 @@ RHEL，Red Hat Enterprise Linux
 	3. 虛擬機-->實體機
 - 使用此工具可實現以下虛擬機結構-->共用重覆的虛擬機檔案-->使用空間更小、方便還原
 	實體機最好不要用樓械硬碟
-	![[Linux_RH134_09_安裝RHEL_08_虛擬機映像檔處理工具.png]]
+	![Linux_RH134_09_安裝RHEL_08_虛擬機映像檔處理工具](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_09_%E5%AE%89%E8%A3%9DRHEL_08_%E8%99%9B%E6%93%AC%E6%A9%9F%E6%98%A0%E5%83%8F%E6%AA%94%E8%99%95%E7%90%86%E5%B7%A5%E5%85%B7.png?raw=true)
 	1. `qemu-img create -f qcow2 -b AAA.qcow2 BBB.qcow2`
 	2. `qemu-img info BBB.qcow2`
 	

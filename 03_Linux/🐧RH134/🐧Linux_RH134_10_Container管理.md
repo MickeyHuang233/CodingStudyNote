@@ -11,13 +11,13 @@
 ### 架構
 - 虛擬機架構
 	缺點：重覆使用的資源太多(如多個kenel)
-	![[Linux_RH134_10_Container管理_01_虛擬機架構.png]]
+	![Linux_RH134_10_Container管理_01_虛擬機架構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_10_Container%E7%AE%A1%E7%90%86_01_%E8%99%9B%E6%93%AC%E6%A9%9F%E6%9E%B6%E6%A7%8B.png?raw=true)
 - container架構：將重覆的東西共用
 	一個container一般只執行一個ap-->方便管理，使用podman、lxc管理
 	缺點：要一個一個管理太麻煩
-	![[Linux_RH134_10_Container管理_02_container架構.png]]
+	![Linux_RH134_10_Container管理_02_container架構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_10_Container%E7%AE%A1%E7%90%86_02_container%E6%9E%B6%E6%A7%8B.png?raw=true)
 - 由container管理工具(如[[🐳Docker_00_Overview]])管理的container架構
-	![[Linux_RH134_10_Container管理_03_container管理工具架構.png]]
+	![Linux_RH134_10_Container管理_03_container管理工具架構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_10_Container%E7%AE%A1%E7%90%86_03_container%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%E6%9E%B6%E6%A7%8B.png?raw=true)
 
 ### container image
 建立container之前需要取得container image
@@ -37,7 +37,7 @@
 	2. 管理多個container工具：docker、Kubernetes
 
 ## 🐧podman
-![[Linux_RH134_10_Container管理_03_podman.png]]
+![Linux_RH134_10_Container管理_03_podman](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_10_Container%E7%AE%A1%E7%90%86_03_podman.png?raw=true)
 - `yum install container-tools`，套件安裝
 
 ### registry server image

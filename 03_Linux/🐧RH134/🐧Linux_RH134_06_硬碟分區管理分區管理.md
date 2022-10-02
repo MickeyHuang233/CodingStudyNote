@@ -630,7 +630,7 @@ LV包含檔案系統，所以兩個都擴充才算是真正上的擴充
 ---
 # VDO
 - VDO(Vitual Data Optimizer)為kenel lavel的功能，主要在做資料壓縮(kvdo)和精簡重複資料(uds)，可結合LVM使用，因此適合於雲端環境使用
-	![[Linux_RH134_06_硬碟分區管理分區管理_07_VDO資料處理過程.png]]
+	![Linux_RH134_06_硬碟分區管理分區管理_07_VDO資料處理過程](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_06_%E7%A1%AC%E7%A2%9F%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86_07_VDO%E8%B3%87%E6%96%99%E8%99%95%E7%90%86%E9%81%8E%E7%A8%8B.png?raw=true)
 - `yum list installed vdo`
 
 ## 🐧操作步驟
@@ -777,7 +777,7 @@ foundation0:/share      /mnt/nfs/     nfs     rw,soft,sync      0       0
 3. `sync`和`async`與資料傳輸相關參數
 	`sync`：kenel直接將資料寫入Disk，效能不好，風險較小
 	`async`：kenel通過RAM將資料寫入Disk，效能好，風險較大
-	![[Linux_RH134_06_硬碟分區管理分區管理_08_sync與async區別.png]]
+	![Linux_RH134_06_硬碟分區管理分區管理_08_sync與async區別](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_06_%E7%A1%AC%E7%A2%9F%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86_08_sync%E8%88%87async%E5%8D%80%E5%88%A5.png?raw=true)
 
 ## 🐧插件自動掛載 autofs
 - 主要用於NFS auto mount，但所有可以mount的設備都可以使用
