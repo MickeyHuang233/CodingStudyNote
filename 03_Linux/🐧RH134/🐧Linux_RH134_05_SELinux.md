@@ -1,4 +1,4 @@
-# SELinux
+# Linux_RH134_05_SELinux
 官方文件：[SELinux-Red Hat](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/selinux_users_and_administrators_guide/part_i-selinux)
 
 ## 🐧介紹
@@ -278,7 +278,7 @@ unconfined_u:object_r:user_home_t:s0 ifconfig_1.txt
 ### 限制應用程式特定功能的啟用
 #### 查看應用程式策略
 - `semanage boolean -l`，查看所有策略
-	![[Linux_RH134_05_SELinux_01_應用程式權限.png]]
+	![Linux_RH134_05_SELinux_01_應用程式權限](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_05_SELinux_01_%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F%E6%AC%8A%E9%99%90.png?raw=true)
 - `getsebool -a`
 	```bash
 	[root@mickey ~]# getsebool -a | grep httpd | head -n 5

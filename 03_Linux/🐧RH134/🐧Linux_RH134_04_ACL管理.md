@@ -1,4 +1,4 @@
-# ACL管理
+# Linux_RH134_04_ACL管理
 ACL(Access Control List)，存取控制安全機制，主要管理一個檔案對應多個owner和多個group owner
 
 ## 🐧啟用ACL
@@ -234,9 +234,9 @@ other::r--
 ## 🐧查看ACL權限
 ### ACL權限在ls -l顯示
 - `.`代表文件沒有ACL權限
-![[Linux_RH134_04_ACL管理_01_傳統權限.png]]
+![Linux_RH134_04_ACL管理_01_傳統權限](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_04_ACL%E7%AE%A1%E7%90%86_01_%E5%82%B3%E7%B5%B1%E6%AC%8A%E9%99%90.png?raw=true)
 - `+`代表文件有ACL權限，前方的rwx不再代表ugo權限，改為u\[mask\]o權限
-![[Linux_RH134_04_ACL管理_02_ACL權限.png]]
+![Linux_RH134_04_ACL管理_02_ACL權限](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_04_ACL%E7%AE%A1%E7%90%86_02_ACL%E6%AC%8A%E9%99%90.png?raw=true)
 
 ### getfacl
 `getfacl <文件|目錄路徑>`，查看指定目錄的ACL權限

@@ -1,9 +1,9 @@
-# 硬碟結構
-![[Linux_RH134_06_硬碟分區管理分區管理_01_硬碟邏輯結構圖.png]]
+# Linux_RH134_06_硬碟分區管理分區管理
+![Linux_RH134_06_硬碟分區管理分區管理_01_硬碟邏輯結構圖](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_06_%E7%A1%AC%E7%A2%9F%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86_01_%E7%A1%AC%E7%A2%9F%E9%82%8F%E8%BC%AF%E7%B5%90%E6%A7%8B%E5%9C%96.png?raw=true)
 - 因為過去的設計，硬碟最大分區只能有4個；但extended partition中還可以有多個primary partition
 	流程：開機-->BIOS的post程序呼叫int 13h程式-->讀取MBR硬碟
 - 過去硬碟最大容量為2T，但現在硬碟廠商將每個block容量加大，所以現在硬碟的容量可以到16T
-	![[Linux_RH134_06_硬碟分區管理分區管理_02_硬碟最大容量計算.png]]
+	![Linux_RH134_06_硬碟分區管理分區管理_02_硬碟最大容量計算](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_06_%E7%A1%AC%E7%A2%9F%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86_02_%E7%A1%AC%E7%A2%9F%E6%9C%80%E5%A4%A7%E5%AE%B9%E9%87%8F%E8%A8%88%E7%AE%97.png?raw=true)
 
 ## 🐧建立分區 parted
 ### 交談式
@@ -182,7 +182,7 @@ LVM，Logical Volume Management，特點為可以彈性的調整filesystem的容
 ## 🐧LVM建立流程
 ### 1. 建立physical device
 Virtual Box新增虛擬硬碟：
-![[Linux_RH134_06_硬碟分區管理分區管理_03_新增虛擬硬碟.png]]
+![Linux_RH134_06_硬碟分區管理分區管理_03_新增虛擬硬碟](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_06_%E7%A1%AC%E7%A2%9F%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86_03_%E6%96%B0%E5%A2%9E%E8%99%9B%E6%93%AC%E7%A1%AC%E7%A2%9F.png?raw=true)
 ```bash
 [mickey@vb101 ~]$ lsblk -fp
 NAME                   FSTYPE LABEL UUID                                   MOUNTPOINT
@@ -409,7 +409,7 @@ NAME                   FSTYPE LABEL UUID                                   MOUNT
 	```
 
 ### 擴充LV
-![[Linux_RH134_06_硬碟分區管理分區管理_04_LV包含檔案系統.png]]
+![Linux_RH134_06_硬碟分區管理分區管理_04_LV包含檔案系統](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_06_%E7%A1%AC%E7%A2%9F%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86_04_LV%E5%8C%85%E5%90%AB%E6%AA%94%E6%A1%88%E7%B3%BB%E7%B5%B1.png?raw=true)
 LV包含檔案系統，所以兩個都擴充才算是真正上的擴充
 1. 放大LV
 	-  `lvextend -L +8M <LV路徑>`，加容量
@@ -529,11 +529,11 @@ LV包含檔案系統，所以兩個都擴充才算是真正上的擴充
 	4. 進行資料備份
 
 快照原理：快照沒有複製任何文件至LV，當有異動才會將舊的內容貼至快照LV
-![[Linux_RH134_06_硬碟分區管理分區管理_05_快照原理.png]]
+![Linux_RH134_06_硬碟分區管理分區管理_05_快照原理](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_06_%E7%A1%AC%E7%A2%9F%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86_05_%E5%BF%AB%E7%85%A7%E5%8E%9F%E7%90%86.png?raw=true)
 
 ---
 # stratis
-![[Linux_RH134_06_硬碟分區管理分區管理_06_stratis架構.png]]
+![Linux_RH134_06_硬碟分區管理分區管理_06_stratis架構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_06_%E7%A1%AC%E7%A2%9F%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86%E5%88%86%E5%8D%80%E7%AE%A1%E7%90%86_06_stratis%E6%9E%B6%E6%A7%8B.png?raw=true)
 - stratis主要功能：快照(snapshots)、 精簡配置(thin provisioning)、分層(tiering)
 - stratis中每個pool可切的file system數量為2<sup>24</sup>個
 - 使用套件：`yum install stratisd stratis-cli`
@@ -630,7 +630,7 @@ LV包含檔案系統，所以兩個都擴充才算是真正上的擴充
 ---
 # VDO
 - VDO(Vitual Data Optimizer)為kenel lavel的功能，主要在做資料壓縮(kvdo)和精簡重複資料(uds)，可結合LVM使用，因此適合於雲端環境使用
-	![VDO資料處理過程](https://hobosource.files.wordpress.com/2018/09/how_it_works_vdo_crop.png?w=640)
+	![[Linux_RH134_06_硬碟分區管理分區管理_07_VDO資料處理過程.png]]
 - `yum list installed vdo`
 
 ## 🐧操作步驟
@@ -777,7 +777,7 @@ foundation0:/share      /mnt/nfs/     nfs     rw,soft,sync      0       0
 3. `sync`和`async`與資料傳輸相關參數
 	`sync`：kenel直接將資料寫入Disk，效能不好，風險較小
 	`async`：kenel通過RAM將資料寫入Disk，效能好，風險較大
-	![[Linux_RH134_06_硬碟分區管理分區管理_07_sync與async區別.png]]
+	![[Linux_RH134_06_硬碟分區管理分區管理_08_sync與async區別.png]]
 
 ## 🐧插件自動掛載 autofs
 - 主要用於NFS auto mount，但所有可以mount的設備都可以使用

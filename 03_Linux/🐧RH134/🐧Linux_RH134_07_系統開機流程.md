@@ -1,4 +1,4 @@
-# 系統開機流程
+# Linux_RH134_07_系統開機流程
 - 開機步驟可參考[[🗄️BIOS]]
 - Linux開機步驟
 	1. 開啟電源-->BIOS自檢程序(POST)-->呼叫int13h程序
@@ -13,7 +13,7 @@
 		- `mount -o rw Root.DEVICE /sysroot`，將/sysroot掛載至硬碟
 		- `chroot /sysroot`，變更根目錄至硬碟
 		- 執行/usr/lib/systemd/systemd中的服務(開機啟動服務)
-	![[Linux_RH134_06_系統開機流程_01_Linux開機步驟.png]]
+	![Linux_RH134_06_系統開機流程_01_Linux開機步驟](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_06_%E7%B3%BB%E7%B5%B1%E9%96%8B%E6%A9%9F%E6%B5%81%E7%A8%8B_01_Linux%E9%96%8B%E6%A9%9F%E6%AD%A5%E9%A9%9F.png?raw=true)
 - `poweroff`，關機，相當於`systemctl poweroff`
 - `reboot`，重啟，相當於`systemctl reboot`
 - `halt`，只會關作業系統，不會關機(很久以前關機用的)，相當於`systemctl halt`

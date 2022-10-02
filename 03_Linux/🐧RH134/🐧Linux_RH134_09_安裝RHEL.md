@@ -1,4 +1,4 @@
-# 安裝RHEL
+# Linux_RH134_09_安裝RHEL
 RHEL，Red Hat Enterprise Linux
 安裝Linux的方法：
 1. ISO檔安裝：\*\_boot.iso為Red Hat安裝導引程式，需要連接至YUM Server

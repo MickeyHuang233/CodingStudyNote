@@ -1,4 +1,4 @@
-# Shell
+# Linux_RH134_01_Shell
 Shell是一個命令行解釋器(直譯式程式設言)，它為用戶提供了一個向Linux內核發送請求以便運行程序的界面系統級程序，用戶可以用Shell來啟動、挂起、停止甚至是編寫一些程序。
 參考：[學習 Shell Scripts-鳥哥的 Linux 私房菜](http://linux.vbird.org/linux_basic/0340bashshell-scripts.php)
 ![[Linux_RH124_19_Shell_01.png]]

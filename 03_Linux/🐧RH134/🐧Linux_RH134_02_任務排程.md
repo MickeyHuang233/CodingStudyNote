@@ -1,4 +1,4 @@
-# Linux任務排程
+# Linux_RH134_02_任務排程
 - at單次排程
 - crond周期性排程：使用[[⏱cron定時表達式]])執行的特定的命令或腳本(Shell)
 	1. system cron
@@ -46,7 +46,7 @@ drwx------. 2 root   root       6 Apr 13 21:23 spool
 
 ### 檢查at排程
 - `atq`
-	![[Linux_RH134_02_任務排程_01_檢查排程.png]]
+	![Linux_RH134_02_任務排程_01_檢查排程](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH134/images/Linux_RH134_02_%E4%BB%BB%E5%8B%99%E6%8E%92%E7%A8%8B_01_%E6%AA%A2%E6%9F%A5%E6%8E%92%E7%A8%8B.png?raw=true)
 - `at -c <排程ID>`，查看指定排程詳細信息，也就是看/var/spool/at/中的文件內容
 	`-c`-->cat
 ```bash
