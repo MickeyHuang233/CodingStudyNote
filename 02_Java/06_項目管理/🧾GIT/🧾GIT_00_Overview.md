@@ -37,7 +37,7 @@
 
 ### Git數據存儲機制
 [Git 原理入門](https://ithelp.ithome.com.tw/articles/10190453)
-![[GIT_00_Overview_01_Git數據存儲機制.png]]
+![GIT_00_Overview_01_Git數據存儲機制](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/06_%E9%A0%85%E7%9B%AE%E7%AE%A1%E7%90%86/%F0%9F%A7%BEGIT/images/GIT_00_Overview_01_Git%E6%95%B8%E6%93%9A%E5%AD%98%E5%84%B2%E6%A9%9F%E5%88%B6.png?raw=true)
 >Git把數據看作是小型文件系統的一組快照，每次提交更新時Git都會對當前的全部文件制作一個快照并保存這個快照的索引，為了高效，如果文件沒有修改，Git不再重新存儲該文件，而是只保留一個鏈接指向之前存儲的文件，所以Git工作方式可稱為快照流。
 - Blob：Git將檔案內容產生hash(SHA1)儲存起來的物件。
 - Tree：Git將文件夾下的檔名産生hash(SHA1)儲存起來的物件, 其中可能包含另一個Tree。

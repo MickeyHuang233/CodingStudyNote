@@ -2,11 +2,11 @@
 git資料初始化，生成.git文件夾：`git init`
 ## 🧾設置簽名
 - 項目/倉庫級別：及在當前本地庫范圍內有效，信息保存至./.git/.gitconfig 。
-`git config user.name <yourUserName>`
-`git config user.email <yourEmail@email.com>`
+	`git config user.name <yourUserName>`
+	`git config user.email <yourEmail@email.com>`
 - 系統用戶級別：登錄當前操作系統的用戶范圍，信息保存至~/.gitconfig。
-`git config --global user.name <yourUserName>`
-`git config --global user.email <yourEmail@email.com>`
+	`git config --global user.name <yourUserName>`
+	`git config --global user.email <yourEmail@email.com>`
 - 級別優先級：
 	1. 就近原則：項目級別>系統用戶級別，二者都有采用項目級別簽名。
 	2. 若兩個級別的簽名都沒有則不允許。

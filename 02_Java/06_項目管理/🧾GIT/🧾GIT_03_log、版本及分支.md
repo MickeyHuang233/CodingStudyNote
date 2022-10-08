@@ -78,12 +78,12 @@
     
 ## 🧾分支操作
 ### 基本操作
-建立分支：`git branch <branchName>`
-查看分支：`git branch -v`
-切換分支：`git checkout <branchName>`
-合并分支`git marge <branchName>`
-- 若分支branch1合并至分支master，則需切換至分支maser：`git checkout master`
-- 合并分支：git marge branch1
+- 建立分支：`git branch <branchName>`
+- 查看分支：`git branch -v`
+- 切換分支：`git checkout <branchName>`
+- 合并分支`git marge <branchName>`
+	1. 若分支branch1合并至分支master，則需切換至分支maser：`git checkout master`
+	2. 合并分支：`git marge branch1`
 
 ### 解決沖突
 1.  刪除沖突文件中的特殊符號要、編輯沖突文件並存檔
