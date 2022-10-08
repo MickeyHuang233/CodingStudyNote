@@ -1,5 +1,6 @@
-# GIT初始化
+# GIT_02_初始化
 git資料初始化，生成.git文件夾：`git init`
+
 ## 🧾設置簽名
 - 項目/倉庫級別：及在當前本地庫范圍內有效，信息保存至./.git/.gitconfig 。
 	`git config user.name <yourUserName>`
