@@ -1,5 +1,5 @@
 # Launch4j
-###### tags: `💻編程/🌠Java/15_其他` `🗂Overview`
+###### tags: `📆2021年` `💻編程/🌠Java/15_其他` `🗂Overview`
 
 導出jar後可以從cmd輸入`java -jar test.jar`執行，但這樣執行不太方便，就找了一下網上的資料，launch4j不僅免費而且用起來難度也不大，因此在這記錄一下我這次的使用過程，以便以後忘記可以查閱。
     
