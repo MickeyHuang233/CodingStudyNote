@@ -1,4 +1,4 @@
-# Role
+# Linux_RH294_08_Role
 - 類似於API，別人寫好的腳本，只需要給相應參數調用即可
 - Role存放目錄(可用`ansible-galaxy list`查看)
 	1. <用戶家目錄>/.ansible/roles

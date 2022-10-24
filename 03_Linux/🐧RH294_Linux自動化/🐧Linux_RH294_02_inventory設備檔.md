@@ -1,4 +1,4 @@
-# inventory設備檔
+# Linux_RH294_02_inventory設備檔
 - 將設備信息寫死，支援[INI-style](https://zh.wikipedia.org/wiki/INI%E6%96%87%E4%BB%B6)或YAML格式
 - 使用程式動態生成設備信息：無論用什麼程式跑，返回值必須為[[🍀JSON]]格式
 	1. 可以在github上下載別人已寫好的dynamically inventory程式-->[參考-github](https://github.com/ansible/ansible/tree/stable-2.9/contrib/inventory) 

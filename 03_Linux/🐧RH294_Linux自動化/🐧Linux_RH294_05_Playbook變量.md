@@ -1,4 +1,4 @@
-# Playbook變量
+# Linux_RH294_05_Playbook變量
 - 變量名由字母、數字、下劃線組成，並以字母開頭
 - 變量名重覆時的優先順序(高-->低)
 	1. Global scope：command line

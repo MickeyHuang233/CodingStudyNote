@@ -1,4 +1,4 @@
-# Ansible
+# Linux_RH294_01_Ansible介紹
 ## 🐧介紹
 - Ansible主要用於操作系統自動化布署和設置環境
 - 優點：
@@ -10,7 +10,7 @@
 	6. 使用dynamic inventories可動態取得環境的機器列表
 	7. 使用dynamic inventories可容易和其他系統連接
 - Ansible管理示意圖
-	![[Linux_RH294_01_Ansible介紹_01_管理示意圖.png]]
+	![Linux_RH294_01_Ansible介紹_01_管理示意圖](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH294_Linux%E8%87%AA%E5%8B%95%E5%8C%96/images/Linux_RH294_01_Ansible%E4%BB%8B%E7%B4%B9_01_%E7%AE%A1%E7%90%86%E7%A4%BA%E6%84%8F%E5%9C%96.png?raw=true)
 - 支援版本
 	1. 主控端：Python 3(3.5或更新版本)或Python 2(2.7或更新版本)
 		改版記錄可參考：[Red Hat Ansible Engine Life Cycle](https://access.redhat.com/support/policy/updates/ansible-engine)
@@ -119,7 +119,7 @@
 
 ## 🐧執行外部指令
 通過模組**會先檢查**當前狀態是否符合需求，若已經符合則不會再執行，而且**會返回執行狀態**；而使用外部指令**不會檢查**就直接執行，而且都是**返回相同的狀態**，因此==不建議使用==
-![[Linux_RH294_01_Ansible介紹_02_執行外部命令.png]]
+![Linux_RH294_01_Ansible介紹_02_執行外部命令](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH294_Linux%E8%87%AA%E5%8B%95%E5%8C%96/images/Linux_RH294_01_Ansible%E4%BB%8B%E7%B4%B9_02_%E5%9F%B7%E8%A1%8C%E5%A4%96%E9%83%A8%E5%91%BD%E4%BB%A4.png?raw=true)
 - `-m command -a '<指令>'`，通過Python直接執行指令，不可使用環境變數
 	1. `-o`，輸出結果顯示為一行
 	```bash
@@ -143,14 +143,14 @@
 ## 🐧設定參數
 ansible.cfg設定檔的內容可用參數代入，不可複用-->CP值太低-->不建議使用
 
-|ansible.cfg|command-line option|
-|---|---|
-|inventory|`-i`|
-|remote_user|`-u`|
-|become=true|`--become`或`-b`|
-|become_method|`--bacome-method`|
-|become_user|`--become-user`|
-|become_ask_pass=true|`--ask-become-pass`或`-K`|
+| ansible.cfg          | command-line option       |
+| -------------------- | ------------------------- |
+| inventory            | `-i`                      |
+| remote_user          | `-u`                      |
+| become=true          | `--become`或`-b`          |
+| become_method        | `--bacome-method`         |
+| become_user          | `--become-user`           |
+| become_ask_pass=true | `--ask-become-pass`或`-K` |
 
 ```bash
 [root@vb101 test]# ansible all -m ping -i /home/mickey/ansible/test/inventory -u mickey --become-method sudo --become-user root

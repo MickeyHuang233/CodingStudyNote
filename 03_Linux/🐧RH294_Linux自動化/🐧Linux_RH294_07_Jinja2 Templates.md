@@ -1,4 +1,4 @@
-# Jinja2 Templates
+# Linux_RH294_07_Jinja2 Templates
 template模組，主要用於布署文字檔
 - template檔副檔名都為`.j2`
 

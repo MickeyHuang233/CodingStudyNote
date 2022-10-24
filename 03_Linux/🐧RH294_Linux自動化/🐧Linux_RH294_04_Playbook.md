@@ -1,4 +1,4 @@
-# Ansible Playbook
+# Linux_RH294_04_Playbook
 ## 🐧vi前期工作
 為了方便編寫時的格式檢查，需要先在做以下步驟：
 1. `yum install vim-enhanced`，安裝套件
@@ -39,10 +39,10 @@
 	```
 - 一個playbook可以有多個play(如下圖左邊)，但這樣會不好管理，所以不建議這麼做
 	比較好的做法(如下圖右邊)是分不同模塊分playbook，再由一個playbook整合
-	![[Linux_RH294_04_Playbook_01_import.png]]
+	![Linux_RH294_04_Playbook_01_import](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH294_Linux%E8%87%AA%E5%8B%95%E5%8C%96/images/Linux_RH294_04_Playbook_01_import.png?raw=true)
 
 ## 🐧playbook執行順序
-![[Linux_RH294_04_Playbook_03_playbook執行順序.png]]
+![Linux_RH294_04_Playbook_03_playbook執行順序](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH294_Linux%E8%87%AA%E5%8B%95%E5%8C%96/images/Linux_RH294_04_Playbook_03_playbook%E5%9F%B7%E8%A1%8C%E9%A0%86%E5%BA%8F.png?raw=true)
 1. pre_tasks
 2. pre_tasks呼叫的handler
 	- 呼叫幾次handler，就會執行幾次
@@ -334,7 +334,7 @@ library = /user/share/my_mymodules
 ```
 
 ### 忽略錯誤 ignore_errors
-![[Linux_RH294_04_Playbook_02_流程控制.png]]
+![Linux_RH294_04_Playbook_02_流程控制](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/03_Linux/%F0%9F%90%A7RH294_Linux%E8%87%AA%E5%8B%95%E5%8C%96/images/Linux_RH294_04_Playbook_02_%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6.png?raw=true)
 - playbook是以被控端為單位執行，也就是說被控端_01執行失敗不會影響被控端_02的執行
 - task在默認情況下如果執行失敗，就會停止整個playbook運行；如果想要忽略此task的錯誤，則在模組裡加上`ignore_errors: yes`
 - 執行回傳參數中`rc=0`代表執行成功，若`rc!=0`代表執行失敗

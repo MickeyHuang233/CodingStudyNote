@@ -1,4 +1,4 @@
-# ansible.cfg設定檔
+# Linux_RH294_03_ansible設定檔
 - ansible.cfg設定檔優先順序(由高-->低)：
 	`ansible --version`可查看目前是看哪個設定檔
 	1. ANSIBLE_CONFIG，宣告環境變數所指定的設定檔
