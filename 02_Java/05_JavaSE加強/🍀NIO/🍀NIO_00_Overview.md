@@ -1,12 +1,4 @@
-#📆2022年 
-狀態:: #☑DONE  
-完成日期:: 2022-10-30
-標籤:: #💻編程/🌠Java/05_JavaSE加強 #🗂Overview 
-子筆記:: [[🍀NIO_01_BIO]], [[🍀NIO_02_NIO]]
-教程:: [黑馬](https://www.bilibili.com/video/BV1kT4y1M7vt)
-備註:: 
-
-# NIO
+# NIO_00_Overview
 Java NIO(Non Blocking IO)是從Java 1.4引入的IO API，可替代標準的IO操作([[🍀JavaSE_04_IO]])，以更高效的方式進行文件的讀寫操作。
 
 ## 🍀概述
@@ -16,14 +8,14 @@ Java NIO(Non Blocking IO)是從Java 1.4引入的IO API，可替代標準的IO操
 	- 傳統的Server/Client模式，Server會為每個Client端建立線程處理請求，此時會消耗大量資源，若使用線程池又會有最大線程數量的限制，可參考：[[☎️Java Socket]]
 - JDK1.4前唯一選擇，適用於連接數比較小且固定的架構，對服務器資源要求較高，但程序簡單易理解
 
-![[NIO_00_Overview_01_傳統Server／Client模式.png]]
+![NIO_00_Overview_01_傳統Server／Client模式](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/05_JavaSE%E5%8A%A0%E5%BC%B7/%F0%9F%8D%80NIO/images/NIO_00_Overview_01_%E5%82%B3%E7%B5%B1Server%EF%BC%8FClient%E6%A8%A1%E5%BC%8F.png?raw=true)
 
 ### Non-Block I/O
 - 非阻塞IO(NIO)：基於Reactor模式，執行IO時不會阻塞，而是注冊特定的IO事件(可一次監聽多個通道)，若發生已注冊的事件時才會收到通知
 - NIO的本質是延遲的IO操作，真正發生IO時才執行，沒有等待時間
 - JDK1.4後支持，適用於連接數較多、連接時間短的架構，如：聊天服務器、彈幕系統、服務器通訊…等
 
-![[NIO_00_Overview_02_非阻塞IO架構.png]]
+![NIO_00_Overview_02_非阻塞IO架構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/05_JavaSE%E5%8A%A0%E5%BC%B7/%F0%9F%8D%80NIO/images/NIO_00_Overview_02_%E9%9D%9E%E9%98%BB%E5%A1%9EIO%E6%9E%B6%E6%A7%8B.png?raw=true)
 
 ### Asynchronous I/O
 - [Java8 官方API文檔 AsynchronousChannel](https://docs.oracle.com/javase/8/docs/api/java/nio/channels/AsynchronousChannel.html)
@@ -39,8 +31,3 @@ Java NIO(Non Blocking IO)是從Java 1.4引入的IO API，可替代標準的IO操
 | -------------- | --------------------- | --------------------------------- |
 | `Socket`       | `SocketChannel`       | `AsynchronousSocketChannel`       |
 | `ServerSocket` | `ServerSocketChannel` | `AsynchronousServerSocketChannel` | 
-
-## 🍀Catalog
-- [[🍀NIO_01_BIO]]
-- [[🍀NIO_02_NIO]]
-

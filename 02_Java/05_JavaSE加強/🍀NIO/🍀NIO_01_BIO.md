@@ -1,4 +1,4 @@
-# BIO
+# NIO_01_BIO
 ## 🍀傳統BIO
 - 可參考[[☎️Java Socket#☎️TCP]]代碼實現
 
@@ -35,7 +35,7 @@ public void test02() {
 ```
 
 ### 傳統服務端_接收單個客戶端
-![[NIO_01_BIO_01_服務端接收單個客戶端架構圖.png]]
+![NIO_01_BIO_01_服務端接收單個客戶端架構圖](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/05_JavaSE%E5%8A%A0%E5%BC%B7/%F0%9F%8D%80NIO/images/NIO_01_BIO_01_%E6%9C%8D%E5%8B%99%E7%AB%AF%E6%8E%A5%E6%94%B6%E5%96%AE%E5%80%8B%E5%AE%A2%E6%88%B6%E7%AB%AF%E6%9E%B6%E6%A7%8B%E5%9C%96.png?raw=true)
 
 - 連線流程
 	1. 通過`ServerSocket`注冊端口
@@ -69,7 +69,7 @@ public void test01() {
 ```
 
 ### 傳統服務端_接收多個客戶端
-![[NIO_01_BIO_02_服務端接收多個客戶端架構圖.png]]
+![NIO_01_BIO_02_服務端接收多個客戶端架構圖](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/05_JavaSE%E5%8A%A0%E5%BC%B7/%F0%9F%8D%80NIO/images/NIO_01_BIO_02_%E6%9C%8D%E5%8B%99%E7%AB%AF%E6%8E%A5%E6%94%B6%E5%A4%9A%E5%80%8B%E5%AE%A2%E6%88%B6%E7%AB%AF%E6%9E%B6%E6%A7%8B%E5%9C%96.png?raw=true)
 
 - 連線流程
 	1. 建立線程任務類
@@ -126,7 +126,7 @@ public void test01() {
 	4. 訪問量越大越容易發生棧出，導致服務器當機
 
 ## 🍀偽異步IO
-![[NIO_01_BIO_03_服務端偽異步架構圖.png]]
+![NIO_01_BIO_03_服務端偽異步架構圖](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/05_JavaSE%E5%8A%A0%E5%BC%B7/%F0%9F%8D%80NIO/images/NIO_01_BIO_03_%E6%9C%8D%E5%8B%99%E7%AB%AF%E5%81%BD%E7%95%B0%E6%AD%A5%E6%9E%B6%E6%A7%8B%E5%9C%96.png?raw=true)
 
 - 主要通過線程池、任務隊列實現
 - 優點：資源可控
@@ -311,7 +311,7 @@ public void test05() {
 
 ## 🍀端口轉發
 客戶端消息發送給所有的客戶端接收
-![[NIO_01_BIO_04_端口轉發架構圖.png]]
+![NIO_01_BIO_04_端口轉發架構圖](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/05_JavaSE%E5%8A%A0%E5%BC%B7/%F0%9F%8D%80NIO/images/NIO_01_BIO_04_%E7%AB%AF%E5%8F%A3%E8%BD%89%E7%99%BC%E6%9E%B6%E6%A7%8B%E5%9C%96.png?raw=true)
 
 ### 服務端
 1. 建立線程任務類

@@ -1,5 +1,5 @@
-# NIO
-![[NIO_02_NIO_01_核心關系圖.png]]
+# NIO_02_NIO
+![NIO_02_NIO_01_核心關系圖](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/05_JavaSE%E5%8A%A0%E5%BC%B7/%F0%9F%8D%80NIO/images/NIO_02_NIO_01_%E6%A0%B8%E5%BF%83%E9%97%9C%E7%B3%BB%E5%9C%96.png?raw=true)
 
 ## 🍀緩沖 Buffer
 - [Java8 官方API文檔 Buffer](https://docs.oracle.com/javase/8/docs/api/java/nio/Buffer.html)
@@ -12,7 +12,7 @@
 	- `FloatBuffer`
 	- `DoubleBuffer`
 - 基本屬性
-	![[NIO_02_NIO_02_Buffer基本屬性.png]]
+	![NIO_02_NIO_02_Buffer基本屬性](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/05_JavaSE%E5%8A%A0%E5%BC%B7/%F0%9F%8D%80NIO/images/NIO_02_NIO_02_Buffer%E5%9F%BA%E6%9C%AC%E5%B1%AC%E6%80%A7.png?raw=true)
 	- 容量(capacity)：Buffer是具有固定大小的內存塊，創建後不能更改
 	- 限制(limit)：Buffer可操作的數據大小，limit後的數據不能進讀寫，limit <= capacity
 		- 寫模式，limit = capacity
