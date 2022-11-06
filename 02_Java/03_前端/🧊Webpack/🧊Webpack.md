@@ -1,10 +1,4 @@
-#📆2022年 
-狀態:: #☑DONE  
-完成日期:: 2022-11-02
-標籤:: #💻編程/🖼前端 #🗂Overview 
-子筆記:: 
-教程:: 
-備註:: 
+###### tags: `📆2022年` `💻編程/🖼前端` `🗂Overview`
 
 # Webpack
 - webpack提供前端模塊化開發支持、代碼壓縮、處理瀏覽器JavaScript兼容性、性能優化…功能
@@ -173,7 +167,7 @@ Wrote to D:\_Mickey_temp\webpack_test\package.json:
     <script src="../dist/main.js"></script>
 	```
 5. 打包成功後的目錄結構
-	![[Webpack_01_webpack目錄結構.png]]
+	![Webpack_01_webpack目錄結構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%A7%8AWebpack/images/Webpack_01_webpack%E7%9B%AE%E9%8C%84%E7%B5%90%E6%A7%8B.png?raw=true)
 
 ### 【非必要】指定Webpack輸入、輸出文件路徑
 webpack.config.js
@@ -305,7 +299,7 @@ modules by path ./node_modules/ 443 KiB
 webpack 5.74.0 compiled successfully in 12579 ms
 ```
 5. [http://localhost:8080/]()可查看結果，但為了避免多次在磁盤讀寫，webpack-dev-server會將産出的.js文件放至內存，可在[http://localhost:8080/T07_Output.js]()查看
-	![[Webpack_02_webpack-dev-server結果.png]]
+	![Webpack_02_webpack-dev-server結果](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%A7%8AWebpack/images/Webpack_02_webpack-dev-server%E7%B5%90%E6%9E%9C.png?raw=true)
 
 ### html-webpack-plugin
 將指定文件複製一份至根目錄，並自動注入webpack-dev-server生成的內存js腳本，比較方便測試，不需到指定路徑下才可以看到頁面
@@ -627,7 +621,7 @@ webpack 5.74.0 compiled successfully in 12579 ms
 	}
 	```
 5. 項目目錄結構
-	![[Webpack_03_babel-loader目錄結構.png]]
+	![Webpack_03_babel-loader目錄結構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%A7%8AWebpack/images/Webpack_03_babel-loader%E7%9B%AE%E9%8C%84%E7%B5%90%E6%A7%8B.png?raw=true)
 
 ### eslint-loader
 eslint為開源JavaScript檢查工具，主要用於開發團隊內編碼風格一致
@@ -795,7 +789,7 @@ module.exports = {
 
 ## 🧊SourceMap
 SourceMap就是儲存位置信息的信息文件。webpack轉換、壓縮、打包後的若有錯誤信息或log打印，顯示的行數為壓縮打包後的行數，不易於debug，使用SourceMap後會將打包前的原始碼位置對應打包後的位置，便於後期調試
-![[Webpack_04_未配置SourceMap的錯誤信息.png]]
+![Webpack_04_未配置SourceMap的錯誤信息](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%A7%8AWebpack/images/Webpack_04_%E6%9C%AA%E9%85%8D%E7%BD%AESourceMap%E7%9A%84%E9%8C%AF%E8%AA%A4%E4%BF%A1%E6%81%AF.png?raw=true)
 
 ### 開發模式下開啟SourceMap
 1. 在webpack.config.js配置SourceMap
@@ -807,7 +801,7 @@ SourceMap就是儲存位置信息的信息文件。webpack轉換、壓縮、打�
 	}
 	```
 1. 配置完成後，webpack重新打包後就會顯示正確行號
-	![[Webpack_05_配置後SourceMap的錯誤信息.png]]
+	![Webpack_05_配置後SourceMap的錯誤信息](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%A7%8AWebpack/images/Webpack_05_%E9%85%8D%E7%BD%AE%E5%BE%8CSourceMap%E7%9A%84%E9%8C%AF%E8%AA%A4%E4%BF%A1%E6%81%AF.png?raw=true)
 
 ### 發布關閉SourceMap
 1. 當`mode`為production時，出於安全性考量關閉`devtool`，最終生成的文件不包含SourceMap，為了避免暴露原始碼
@@ -819,7 +813,7 @@ SourceMap就是儲存位置信息的信息文件。webpack轉換、壓縮、打�
 	}
 	```
 3. 配置完成後，webpack重新打包後就會顯示正確行號，但無法從連結取得源始碼
-	![[Webpack_06_配置僅顯示行號SourceMap的錯誤信息.png]]
+	![Webpack_06_配置僅顯示行號SourceMap的錯誤信息](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%A7%8AWebpack/images/Webpack_06_%E9%85%8D%E7%BD%AE%E5%83%85%E9%A1%AF%E7%A4%BA%E8%A1%8C%E8%99%9FSourceMap%E7%9A%84%E9%8C%AF%E8%AA%A4%E4%BF%A1%E6%81%AF.png?raw=true)
 
 ## 🧊其他
 ### 以@顯示專案路徑
