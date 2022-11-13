@@ -1,10 +1,4 @@
-#📆2022年 
-狀態:: #☑DONE  
-完成日期:: 2022-11-06
-標籤:: #💻編程/🖼前端 #🗂Overview 
-子筆記:: 
-教程:: [尚硅谷](https://www.bilibili.com/video/BV1uK411H7on)、[黑馬](https://www.bilibili.com/video/BV1Kt411w7MP)
-備註:: 目前只記錄常用的語法
+###### tags: `📆2022年` `💻編程/🖼前端` `🗂Overview`
 
 # ECMAScirpt6
 ==以下只記錄ES5和ES6差異較大且常用的語法、概念，主要用於學習往後前端框架的預備知識。==
