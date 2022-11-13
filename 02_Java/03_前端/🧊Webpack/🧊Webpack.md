@@ -162,12 +162,13 @@ Wrote to D:\_Mickey_temp\webpack_test\package.json:
 	webpack 5.74.0 compiled successfully in 612 ms
 	```
 4. html引入的js路徑應該為dist/底下的.js檔
-	```html
-    <!-- <script src="./index.js"></script> -->
-    <script src="../dist/main.js"></script>
-	```
+    ```html
+    <!-- <script src="./index.js"></script> -->
+    <script src="../dist/main.js"></script>
+    ```
 5. 打包成功後的目錄結構
-	![Webpack_01_webpack目錄結構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%A7%8AWebpack/images/Webpack_01_webpack%E7%9B%AE%E9%8C%84%E7%B5%90%E6%A7%8B.png?raw=true)
+
+    ![Webpack_01_webpack目錄結構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%A7%8AWebpack/images/Webpack_01_webpack%E7%9B%AE%E9%8C%84%E7%B5%90%E6%A7%8B.png?raw=true)
 
 ### 【非必要】指定Webpack輸入、輸出文件路徑
 webpack.config.js
@@ -621,7 +622,8 @@ webpack 5.74.0 compiled successfully in 12579 ms
 	}
 	```
 5. 項目目錄結構
-	![Webpack_03_babel-loader目錄結構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%A7%8AWebpack/images/Webpack_03_babel-loader%E7%9B%AE%E9%8C%84%E7%B5%90%E6%A7%8B.png?raw=true)
+
+    ![Webpack_03_babel-loader目錄結構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%A7%8AWebpack/images/Webpack_03_babel-loader%E7%9B%AE%E9%8C%84%E7%B5%90%E6%A7%8B.png?raw=true)
 
 ### eslint-loader
 eslint為開源JavaScript檢查工具，主要用於開發團隊內編碼風格一致
