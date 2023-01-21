@@ -26,15 +26,6 @@ Git 指令說明文檔：https://git-scm.com/docs
 - `git remote add origin <貼上鏈接>`，連結遠端
 - `git push origin master`，資料推入雲端
 
-## 🧾指令及操作
-- [[🧾GIT_01_基本操作]]
-- [[🧾GIT_02_初始化]]
-- [[🧾GIT_03_log]]
-- [[🧾GIT_04_版本、分支]]
-- [[🧾GIT_05_開發模型]]
-- [[🧾GIT_06_其他操作]]
-- [[🧾GitLab]]
-
 ## 🧾Git原理
 ### Hash算法簡介
 [hash是什麼？](https://blockbar.io/blockchain/hash%E6%98%AF%E4%BB%80%E9%BA%BC-what-is-hash/)
