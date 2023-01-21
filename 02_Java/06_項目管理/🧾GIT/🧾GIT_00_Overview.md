@@ -1,4 +1,7 @@
-# SVN
+# GIT_00_Overview
+Git 指令說明文檔：https://git-scm.com/docs
+
+## 🧾SVN
 ![GIT_00_Overview_01_SVN示意圖](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/06_%E9%A0%85%E7%9B%AE%E7%AE%A1%E7%90%86/%F0%9F%A7%BEGIT/images/GIT_00_Overview_01_SVN%E7%A4%BA%E6%84%8F%E5%9C%96.png?raw=true)
 
 - 優點
@@ -9,9 +12,6 @@
 	2. 無法離線操作
 	3. 建立分支成本太高
 	4. 越來越少現代開發工具支援
-
-# GIT
-Git 指令說明文檔：https://git-scm.com/docs
 
 ## 🧾初次建立懶人操作
 - `git init` ，資料初始化
