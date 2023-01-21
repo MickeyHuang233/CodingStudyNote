@@ -15,7 +15,7 @@
 查看單個指令的說明文檔：`git help <指命名>`
 
 ## 🧾Git基本操作
-![[GIT_01_基本操作_01_工作區常用指令.png]]
+![GIT_01_基本操作_01_工作區常用指令](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/06_%E9%A0%85%E7%9B%AE%E7%AE%A1%E7%90%86/%F0%9F%A7%BEGIT/images/GIT_01_%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C_01_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.png?raw=true)
 
 - 狀態查看操作：`git status`
 - 將指定文件工作區加到暫存區：`git add <fileName>`

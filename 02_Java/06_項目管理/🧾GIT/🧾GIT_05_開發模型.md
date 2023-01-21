@@ -1,7 +1,7 @@
 ## 🧾存取模型
 和其他開發者共同協作時的存取模型
 ### 分散式貢獻者模型 Dispersed
-![[GIT_05_開發模型_01_分散式貢獻者模型.png]]
+![GIT_05_開發模型_01_分散式貢獻者模型](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/06_%E9%A0%85%E7%9B%AE%E7%AE%A1%E7%90%86/%F0%9F%A7%BEGIT/images/GIT_05_%E9%96%8B%E7%99%BC%E6%A8%A1%E5%9E%8B_01_%E5%88%86%E6%95%A3%E5%BC%8F%E8%B2%A2%E7%8D%BB%E8%80%85%E6%A8%A1%E5%9E%8B.png?raw=true)
 
 - 特點
 	- Linux kernel目前使用此模型進行版本推進
@@ -15,7 +15,7 @@
 	- 貢獻者需自行架設版本管理系統
 
 ### 共處一地貢獻者模型 Collocated
-![[GIT_05_開發模型_02_共處一地貢獻者模型.png]]
+![GIT_05_開發模型_02_共處一地貢獻者模型](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/06_%E9%A0%85%E7%9B%AE%E7%AE%A1%E7%90%86/%F0%9F%A7%BEGIT/images/GIT_05_%E9%96%8B%E7%99%BC%E6%A8%A1%E5%9E%8B_02_%E5%85%B1%E8%99%95%E4%B8%80%E5%9C%B0%E8%B2%A2%E7%8D%BB%E8%80%85%E6%A8%A1%E5%9E%8B.png?raw=true)
 
 - 特點
 	- 上游專案有完整控制權
@@ -30,7 +30,7 @@
 	- 分享成果變得複雜
 
 ### 共享維護模型 Shared
-![[GIT_05_開發模型_03_共享維護模型.png]]
+![GIT_05_開發模型_03_共享維護模型](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/06_%E9%A0%85%E7%9B%AE%E7%AE%A1%E7%90%86/%F0%9F%A7%BEGIT/images/GIT_05_%E9%96%8B%E7%99%BC%E6%A8%A1%E5%9E%8B_03_%E5%85%B1%E4%BA%AB%E7%B6%AD%E8%AD%B7%E6%A8%A1%E5%9E%8B.png?raw=true)
 
 - 特點
 	- 每個author都有寫入權限，因此大家都要有互信基礎
@@ -62,7 +62,7 @@
 
 ## 🧾版控流程
 ### Git flow
-![[GIT_05_開發模型_04_GitFlow.png]]
+![GIT_05_開發模型_04_GitFlow](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/06_%E9%A0%85%E7%9B%AE%E7%AE%A1%E7%90%86/%F0%9F%A7%BEGIT/images/GIT_05_%E9%96%8B%E7%99%BC%E6%A8%A1%E5%9E%8B_04_GitFlow.png?raw=true)
 
 - master，上線分支，永遠處於可使用狀態，如：正式區
 - hotfix，緊急修復分支，系統上線後需緊急修復bug的分支
@@ -73,12 +73,12 @@
 ### Github flow
 相較於Git flow簡單很多，開發完成後只要將分支合并至master，由master發布即可，但會比較要求工程師的代碼品質
 
-![[GIT_05_開發模型_05_GithubFlow.png]]
+![GIT_05_開發模型_05_GithubFlow](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/06_%E9%A0%85%E7%9B%AE%E7%AE%A1%E7%90%86/%F0%9F%A7%BEGIT/images/GIT_05_%E9%96%8B%E7%99%BC%E6%A8%A1%E5%9E%8B_05_GithubFlow.png?raw=true)
 
 ### Gitlab flow
 開發完成後只要將分支合并至master，當master測試完成後再合并至pre-production，當pre-production測試完成後再合并至production
 
-![[GIT_05_開發模型_06_GitlabFlow.png]]
+![GIT_05_開發模型_06_GitlabFlow](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/06_%E9%A0%85%E7%9B%AE%E7%AE%A1%E7%90%86/%F0%9F%A7%BEGIT/images/GIT_05_%E9%96%8B%E7%99%BC%E6%A8%A1%E5%9E%8B_06_GitlabFlow.png?raw=true)
 
 - master，如：SIT分支
 - pre-production，如：UAT分支
