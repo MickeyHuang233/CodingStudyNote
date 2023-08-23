@@ -1,4 +1,4 @@
-# JPA API
+# JPA_03_API
 ## 🗄️Persistence
 `Persistence`用於建立`EntityManagerFactory`實例
 

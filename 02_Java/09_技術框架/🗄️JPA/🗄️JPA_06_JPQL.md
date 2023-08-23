@@ -1,4 +1,4 @@
-# JPQL
+# JPA_06_JPQL
 - JPQL(Java Persistence Query Language)類似於SQL，但查詢資料來源是實體類(Entity)，並不是資料庫本身，通過`Query`接口封裝執行
 - Hibernate官方文檔：https://docs.jboss.org/hibernate/orm/6.2/userguide/html_single/Hibernate_User_Guide.html#query-language
 

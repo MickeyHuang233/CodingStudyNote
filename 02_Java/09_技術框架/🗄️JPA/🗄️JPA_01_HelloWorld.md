@@ -1,4 +1,4 @@
-# JPA HelloWorld
+# JPA_01_HelloWorld
 JPA + SpringBoot，可參考：[[🍃SpringBoot1_05_數據訪問#🍃整合JPA]]
 
 ## 🗄️數據庫安裝(MySQL容器)

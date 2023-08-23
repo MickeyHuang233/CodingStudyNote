@@ -1,4 +1,4 @@
-# JPA整合Spring
+# JPA_07_整合Spring
 ## 🗄️Maven引入依賴
 ```xml
 <properties>

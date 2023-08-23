@@ -1,4 +1,4 @@
-# JPA映射關聯關系
+# JPA_04_映射關聯關系
 ## 🗄️單向多對一
 ### 實體類映射關系
 ![JPA_04_映射關聯關系_01_單向多對一](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%97%84%EF%B8%8FJPA/images/JPA_04_%E6%98%A0%E5%B0%84%E9%97%9C%E8%81%AF%E9%97%9C%E7%B3%BB_01_%E5%96%AE%E5%90%91%E5%A4%9A%E5%B0%8D%E4%B8%80.png?raw=true)
