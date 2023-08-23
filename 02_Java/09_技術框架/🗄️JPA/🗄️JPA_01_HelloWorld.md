@@ -14,7 +14,7 @@ JPA + SpringBoot，可參考：[[🍃SpringBoot1_05_數據訪問#🍃整合JPA]]
 	sudo firewall-cmd --reload
 	```
 2. 使用資料庫連線工具連線
-	![[JPA_01_HelloWorld_01_資料庫連線工具參數.png]]
+	![JPA_01_HelloWorld_01_資料庫連線工具參數](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%97%84%EF%B8%8FJPA/images/JPA_01_HelloWorld_01_%E8%B3%87%E6%96%99%E5%BA%AB%E9%80%A3%E7%B7%9A%E5%B7%A5%E5%85%B7%E5%8F%83%E6%95%B8.png?raw=true)
 3. 建立資料表
 	```sql
 	create table jpa_t01_user(
@@ -148,5 +148,5 @@ public class T02_HelloWorld {
 ```
 
 ## 🗄️目錄結構
-![[JPA_01_HelloWorld_01_目錄結構.png]]
+![JPA_01_HelloWorld_01_目錄結構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%97%84%EF%B8%8FJPA/images/JPA_01_HelloWorld_01_%E7%9B%AE%E9%8C%84%E7%B5%90%E6%A7%8B.png?raw=true)
 
