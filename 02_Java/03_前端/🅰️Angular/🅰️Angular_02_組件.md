@@ -122,6 +122,7 @@ export class AppModule { }
 
 ### 父傳子
 ![Angular_02_組件_02_組件資料父傳子](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%85%B0%EF%B8%8FAngular/images/Angular_02_%E7%B5%84%E4%BB%B6_02_%E7%B5%84%E4%BB%B6%E8%B3%87%E6%96%99%E7%88%B6%E5%82%B3%E5%AD%90.png?raw=true)
+
 父組件通過"子組件的自定義屬性"向下傳運數據給子組件
 
 1. `@Input()`，子組件中將變量指定為輸入型屬性，表示此屬性可從父組件傳值
@@ -172,6 +173,7 @@ export class AppModule { }
 
 ### 子傳父
 ![Angular_02_組件_02_組件資料子傳父](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%85%B0%EF%B8%8FAngular/images/Angular_02_%E7%B5%84%E4%BB%B6_02_%E7%B5%84%E4%BB%B6%E8%B3%87%E6%96%99%E5%AD%90%E5%82%B3%E7%88%B6.png?raw=true)
+
 子組件通過觸發特定事件，攜帶數據傳遞給父組件
 
 1. 子組件設置
