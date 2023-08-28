@@ -11,14 +11,6 @@
 - [[📦NPM]]
 - [[🟦TypeScript_00_Overview]]，Angular從V2.x後開始用TypeScript編寫
 
-## 🅰️Catalog
-- [[🅰️Angular_01_HelloWorld]]
-- [[🅰️Angular_02_組件]]
-- [[🅰️Angular_03_數據、指令綁定]]
-- [[🅰️Angular_04_Pipe]]
-- [[🅰️Angular_05_服務、依賴注入]]
-- [[🅰️Angular_06_路由、導航]]
-
 ## 🅰️核心概念
 - 模塊(Module)
 - 指令
