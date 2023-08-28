@@ -61,6 +61,7 @@ export class AppModule { }
 ## 🅰️新建組件(NPM工具)
 - 官方文檔：[ng generate component - Angular](https://angular.tw/cli/generate#component-command)
 - Visual Studio Code啟動Terminal，Veiw --> Terminal
+    
 	![Angular_02_組件_01_VScode啟動命令行](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%85%B0%EF%B8%8FAngular/images/Angular_02_%E7%B5%84%E4%BB%B6_01_VScode%E5%95%9F%E5%8B%95%E5%91%BD%E4%BB%A4%E8%A1%8C.png?raw=true)
 - `ng generate component <組件名>`、`ng g component <組件名>`，使用npm(第三方模塊維護工具)建立Angular組件
 	```bash
