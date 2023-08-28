@@ -65,10 +65,10 @@
 	√ Compiled successfully.
 	```
 5. 測試：http://localhost:4200/
-	![[Angular_01_HelloWorld_01_啟動成功.png]]
+	![Angular_01_HelloWorld_01_啟動成功](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%85%B0%EF%B8%8FAngular/images/Angular_01_HelloWorld_01_%E5%95%9F%E5%8B%95%E6%88%90%E5%8A%9F.png?raw=true)
 
 ## 🅰️目錄結構
-![[Angular_01_HelloWorld_02_目錄結構.png]]
+![Angular_01_HelloWorld_02_目錄結構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%85%B0%EF%B8%8FAngular/images/Angular_01_HelloWorld_02_%E7%9B%AE%E9%8C%84%E7%B5%90%E6%A7%8B.png?raw=true)
 
 
 

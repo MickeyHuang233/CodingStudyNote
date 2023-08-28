@@ -1,11 +1,3 @@
-#📆2023年 
-狀態:: #☑DONE 
-完成日期:: 2023-08-25
-標籤:: #💻編程/🖼前端/02_技術框架 #🗂Overview 
-子筆記:: [[🅰️Angular_01_HelloWorld]], [[🅰️Angular_02_組件]], [[🅰️Angular_03_數據、指令綁定]], [[🅰️Angular_04_Pipe]], [[🅰️Angular_05_服務、依賴注入]], [[🅰️Angular_06_路由、導航]]
-教程:: [教程](https://www.bilibili.com/video/BV1R54y1J75g)、[教程](https://www.bilibili.com/video/BV1tB4y1g7TS)、[尚硅谷](https://www.bilibili.com/video/BV1ts411E7qg)
-備註:: 
-
 # Angular
 - Angular官網，[英文](https://angular.io/)、[繁體中文](https://angular.tw/)
 - Chrome插件，[ng-inspect for AngularJS](https://chrome.google.com/webstore/detail/ng-inspect-for-angularjs/cidepfmbgngpdapgncfhpecbdhmnnemf)

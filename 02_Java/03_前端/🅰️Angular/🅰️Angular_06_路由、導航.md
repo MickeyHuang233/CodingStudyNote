@@ -192,7 +192,7 @@
 
 ## 🅰️路由嵌套
 可參考：[巢狀(Nesting)路由 - Angular](https://angular.tw/guide/router#nesting-routes)
-![[Angular_06_路由、導航_01_路由嵌套.png]]
+![Angular_06_路由、導航_01_路由嵌套](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/03_%E5%89%8D%E7%AB%AF/%F0%9F%85%B0%EF%B8%8FAngular/images/Angular_06_%E8%B7%AF%E7%94%B1%E3%80%81%E5%B0%8E%E8%88%AA_01_%E8%B7%AF%E7%94%B1%E5%B5%8C%E5%A5%97.png?raw=true)
 
 1. 建立相應組件
 2. 路由詞典可嵌套`children`屬性
