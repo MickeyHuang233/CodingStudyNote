@@ -87,7 +87,7 @@ public Job job67() {
 - `TaskExecutorPartitionHandler`，分區處理器，負責將任務指派給從步驟
 
 ### 大致流程
-![[SpringBatch_09_高級_03_分區步驟大致流程](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_09_%E9%AB%98%E7%B4%9A_03_%E5%88%86%E5%8D%80%E6%AD%A5%E9%A9%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B.png?raw=true)
+![SpringBatch_09_高級_03_分區步驟大致流程](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_09_%E9%AB%98%E7%B4%9A_03_%E5%88%86%E5%8D%80%E6%AD%A5%E9%A9%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B.png?raw=true)
 
 1. 作業(Job)啟動主步驟(Master Step)
 2. 主步驟啟動初區處理器
