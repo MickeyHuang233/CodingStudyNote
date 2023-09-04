@@ -1,5 +1,5 @@
 # Spring Batch批處理數據表
-![[SpringBatch_04_批處理數據表_01_表關系.png]]
+![[SpringBatch_04_批處理數據表_01_表關系](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_04_%E6%89%B9%E8%99%95%E7%90%86%E6%95%B8%E6%93%9A%E8%A1%A8_01_%E8%A1%A8%E9%97%9C%E7%B3%BB.png?raw=true)
 
 - ==BATCH_JOB_INSTANCE==，執行一次作業時就會産生一筆資料
 	- `JOB_EXECUTION_ID`，作業執行實例主鍵

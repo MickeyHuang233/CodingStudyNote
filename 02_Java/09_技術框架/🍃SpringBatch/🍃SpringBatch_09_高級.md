@@ -1,6 +1,6 @@
 # Spring Batch高級
 ## 🍃多線程步驟
-![[SpringBatch_09_高級_01_多線程步驟架構.png]]
+![SpringBatch_09_高級_01_多線程步驟架構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_09_%E9%AB%98%E7%B4%9A_01_%E5%A4%9A%E7%B7%9A%E7%A8%8B%E6%AD%A5%E9%A9%9F%E6%9E%B6%E6%A7%8B.png?raw=true)
 - 多線程環境下，步驟需要設定為不可重啟，可參考：[[🍃SpringBatch_05_作業控制#🍃禁止重啟]]
 - 多線程步驟是通過`TaskExecutor`(任務執行器)實現，約定每一個塊啟動一個線程獨立執行
 - Spring Batch提供的`ItemReader`都是有狀態的，若對象維護狀態會被多個線程訪問，可能會有處程間狀態相互覆的問題，所以`ItemReader`需要設置`saveState(false)`，因此作業是不可以重啟的
@@ -69,7 +69,7 @@ public Job job67() {
 ```
 
 ## 🍃分區步驟
-![[SpringBatch_09_高級_02_分區步驟架構.png]]
+![SpringBatch_09_高級_02_分區步驟架構](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_09_%E9%AB%98%E7%B4%9A_02_%E5%88%86%E5%8D%80%E6%AD%A5%E9%A9%9F%E6%9E%B6%E6%A7%8B.png?raw=true)
 - 分區步驟指的是將步驟區分為上下級
 	- 上級(Master Step，主步驟)，負責管理多個從步驟
 	- 下級(Work Step，從步驟)，具體執行讀、處理、寫邏輯
@@ -87,7 +87,7 @@ public Job job67() {
 - `TaskExecutorPartitionHandler`，分區處理器，負責將任務指派給從步驟
 
 ### 大致流程
-![[SpringBatch_09_高級_03_分區步驟大致流程.png]]
+![[SpringBatch_09_高級_03_分區步驟大致流程](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_09_%E9%AB%98%E7%B4%9A_03_%E5%88%86%E5%8D%80%E6%AD%A5%E9%A9%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B.png?raw=true)
 
 1. 作業(Job)啟動主步驟(Master Step)
 2. 主步驟啟動初區處理器

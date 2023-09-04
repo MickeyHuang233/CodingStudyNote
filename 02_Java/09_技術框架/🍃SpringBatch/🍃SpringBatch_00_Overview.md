@@ -1,6 +1,6 @@
 # Spring Batch
 - 批次處理，將數據分批次進行處理的過程，如：銀行對賬邏輯、跟系統數據同步…等
-	![[SpringBatch_00_Overview_01_常規批次步驟.png]]
+	![SpringBatch_00_Overview_01_常規批次步驟](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_00_Overview_01_%E5%B8%B8%E8%A6%8F%E6%89%B9%E6%AC%A1%E6%AD%A5%E9%A9%9F.png?raw=true)
 	- 自動執行，正常情況無需人為介入
 	- 數據量大
 	- 定時執行
@@ -18,7 +18,7 @@
 - [[🗄️JPA_00_Overview]]
 
 ## 🍃批次處理流程
-![[SpringBatch_00_Overview_02_批次處理流程.png]]
+![SpringBatch_00_Overview_02_批次處理流程](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_00_Overview_02_%E6%89%B9%E6%AC%A1%E8%99%95%E7%90%86%E6%B5%81%E7%A8%8B.png?raw=true)
 
 - `JobLauncher`，作業調度器，批次作業啟動入口
 - `Job`，批次作業，執行批次任務邏輯

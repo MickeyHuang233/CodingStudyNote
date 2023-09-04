@@ -21,7 +21,8 @@ public interface Tasklet {
 
 ## 🍃Chunk處理模式
 - 相比於`Tasklet`多了三個模塊：
-	![[SpringBatch_03_Step_01_Chunk模塊結構圖.png]]
+	
+	![SpringBatch_03_Step_01_Chunk模塊結構圖](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_03_Step_01_Chunk%E6%A8%A1%E5%A1%8A%E7%B5%90%E6%A7%8B%E5%9C%96.png?raw=true)
 	- `ItemReader`，讀模塊，會一直循環調用，直到返回`null`才停止
 	- `ItemProcessor`，處理模塊，處理模塊的處理次數是跟隨讀模塊，也就是讀幾次就處理幾次
 	- `ItemWriter`，寫模塊，一次性處理所有數據
@@ -310,7 +311,7 @@ public Job job_36() throws Exception {
 
 ## 🍃流式步驟(步驟集合)
 流式步驟由多個子步驟組成，一般用於較為複雜的業務，有較高的靈活性
-![[SpringBatch_03_Step_02_流式步驟.png]]
+![SpringBatch_03_Step_02_流式步驟](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_03_Step_02_%E6%B5%81%E5%BC%8F%E6%AD%A5%E9%A9%9F.png?raw=true)
 
 ```java
 // 構建流步驟，需要再包裝成步驟

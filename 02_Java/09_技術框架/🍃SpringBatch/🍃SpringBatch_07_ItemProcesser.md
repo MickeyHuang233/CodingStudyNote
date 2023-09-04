@@ -373,7 +373,7 @@ public class T60_ItemProcessorTest4 {
 ```
 
 ## 🍃自定義處理器
-![[SpringBatch_07_ItemProcesser_01_自定義處理器.png]]
+![SpringBatch_07_ItemProcesser_01_自定義處理器](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_07_ItemProcesser_01_%E8%87%AA%E5%AE%9A%E7%BE%A9%E8%99%95%E7%90%86%E5%99%A8.png?raw=true)
 
 1. 建立自定義處理器，實作`ItemProcessor`
 	```java
