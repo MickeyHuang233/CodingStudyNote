@@ -17,7 +17,8 @@
 2. `+` --> Application --> 新增Job參數
 	![SpringBatch_02_Job_02_設置作業參數](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_02_Job_02_%E8%A8%AD%E7%BD%AE%E4%BD%9C%E6%A5%AD%E5%8F%83%E6%95%B8.png?raw=true)
 3. 執行剛剛新增的Application
-	![SpringBatch_02_Job_03_設置作業參數](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_02_Job_03_%E8%A8%AD%E7%BD%AE%E4%BD%9C%E6%A5%AD%E5%8F%83%E6%95%B8.png?raw=true)
+	
+    ![SpringBatch_02_Job_03_設置作業參數](https://github.com/MickeyHuang233/CodingStudyNote/blob/main/02_Java/09_%E6%8A%80%E8%A1%93%E6%A1%86%E6%9E%B6/%F0%9F%8D%83SpringBatch/images/SpringBatch_02_Job_03_%E8%A8%AD%E7%BD%AE%E4%BD%9C%E6%A5%AD%E5%8F%83%E6%95%B8.png?raw=true)
 4. 執行成功後，可在資料表`BATCH_JOB_EXECUTION_PARAMS`中看到剛剛設定的參數
 	```console
 	JOB_EXECUTION_ID|TYPE_CD|KEY_NAME|STRING_VAL|DATE_VAL           |LONG_VAL|DOUBLE_VAL|IDENTIFYING|
